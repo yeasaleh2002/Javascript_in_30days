@@ -39,3 +39,23 @@ Logical Operators:
 
 ! (NOT)
  */
+
+// Example Code:
+// / আরিথমেটিক অপারেটর উদাহরণ
+let a = 15;
+let b = 4;
+
+console.log(a + b); // আউটপুট: 19
+console.log(a - b); // আউটপুট: 11
+console.log(a * b); // আউটপুট: 60
+console.log(a / b); // আউটপুট: 3.75
+console.log(a % b); // আউটপুট: 3
+
+// তুলনা অপারেটর উদাহরণ
+console.log(a > b);  // আউটপুট: true
+console.log(a < b);  // আউটপুট: false
+
+// লজিক্যাল অপারেটর উদাহরণ
+console.log(a > 10 && b > 2); // true
+console.log(a > 10 || b < 2); // true
+console.log(!(a > 10));       // false
