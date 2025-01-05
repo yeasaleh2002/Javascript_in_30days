@@ -35,5 +35,37 @@ if (marks >= 90) {
 
 4. Switch Statement:
 The switch statement is an alternative to multiple if-else blocks. It evaluates an expression against multiple cases.
+let day = 3;
+switch (day) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  default:
+    console.log("Invalid day");
+}
 
+
+Additional Explanation:
+
+Nested Conditionals: Conditions can be nested within each other for complex decision-making.
+let score = 75;
+if (score >= 50) {
+  if (score >= 80) {
+    console.log("Excellent");
+  } else {
+    console.log("Good");
+  }
+} else {
+  console.log("Needs Improvement");
+}
+
+// if স্টেটমেন্ট শর্ত চেক করে।
+// switch স্টেটমেন্ট একাধিক কেস চেক করতে ব্যবহৃত হয়।
+// নেস্টেড কন্ডিশনাল ব্যবহার করলে জটিল শর্ত পরিচালনা করা সহজ হয়।
 */
