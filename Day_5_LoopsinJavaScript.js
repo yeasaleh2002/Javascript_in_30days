@@ -39,5 +39,17 @@ let colors = ["red", "green", "blue"];
 for (let color of colors) {
   console.log(color);
 }
-  
+
+Additional Explanation:
+Break and Continue:
+The break statement exits a loop prematurely, and the continue statement skips the current iteration and proceeds to the next.
+for (let i = 0; i < 10; i++) {
+  if (i === 5) break;
+  if (i % 2 === 0) continue;
+  console.log(i);
+}
+
+/ for লুপ পুনরাবৃত্তি করার জন্য ব্যবহৃত হয়।
+// while লুপ নির্দিষ্ট শর্ত পূরণ হওয়া পর্যন্ত চলে।
+// break এবং continue লুপের প্রবাহ নিয়ন্ত্রণ করতে ব্যবহৃত হয়।
  */
