@@ -2,15 +2,10 @@
 Types of Operators:
 
 Arithmetic Operators:
-
 + (Addition)
-
 - (Subtraction)
-
 * (Multiplication)
-
 / (Division)
-
 % (Modulus: Remainder)
 
 Assignment Operators:
