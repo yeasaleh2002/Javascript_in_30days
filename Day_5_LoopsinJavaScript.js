@@ -33,5 +33,11 @@ for (let key in person) {
   console.log(key + ": " + person[key]);
 }
 
-
+5. for-of Loop (for Arrays):
+The for-of loop iterates over values in an iterable, such as arrays.
+let colors = ["red", "green", "blue"];
+for (let color of colors) {
+  console.log(color);
+}
+  
  */
