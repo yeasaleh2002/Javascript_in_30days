@@ -20,23 +20,15 @@ Assignment Operators:
 +=: Adds and assigns (e.g., x += 5)
 
 Comparison Operators:
-
 == (Equality, type-insensitive)
-
 === (Strict equality)
-
 > (Greater than)
-
 < (Less than)
-
 != (Not equal)
 
 Logical Operators:
-
 && (AND)
-
 || (OR)
-
 ! (NOT)
  */
 
