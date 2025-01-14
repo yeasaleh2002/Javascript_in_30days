@@ -1,38 +1,31 @@
-### Day 6: Functions in JavaScript
+// ### Day 6: Functions in JavaScript
 
-#### 1. **What is a Function?**
-   - **English:** A function is a block of code that performs a specific task. It can be called/invoked to execute the code inside it.
-   - **Bangla:** একটি ফাংশন হল কোডের একটি ব্লক যা একটি নির্দিষ্ট কাজ সম্পাদন করে। এটি কল/ইভোক করা যেতে পারে কোডটি কার্যকর করার জন্য।
+   // 1. What is a Function?
+   // English: A function is a block of code that performs a specific task. It can be called/invoked to execute the code inside it.
+   // Bangla: একটি ফাংশন হল কোডের একটি ব্লক যা একটি নির্দিষ্ট কাজ সম্পাদন করে। এটি কল/ইভোক করা যেতে পারে কোডটি কার্যকর করার জন্য।
 
-   - **Use Case:** Functions are used when you want to reuse code multiple times in your program without repeating it. For example, if you have a task that calculates the area of a rectangle, you can use a function for that task.
+   // Use Case: Functions are used when you want to reuse code multiple times in your program without repeating it. For example, if you have a task that calculates the area of a rectangle, you can use a function for that task.
 
-   - **Code Example:**
-     ```javascript
+   // Code Example:
      function calculateArea(length, width) {
          return length * width;
      }
 
      console.log(calculateArea(5, 3));  // Output: 15
-     ```
 
----
+  /* 2. Function Declaration
+   English: This is the most common way to define a function. You declare it using the `function` keyword followed by the function name, parameters, and the body of the function.
+   Bangla: এটি একটি ফাংশন ডিফাইন করার সবচেয়ে সাধারণ উপায়। আপনি `function` কিওয়ার্ড ব্যবহার করে ফাংশনটি ঘোষণা করেন, তারপরে ফাংশন নাম, প্যারামিটার এবং ফাংশনের শরীর।
 
-#### 2. **Function Declaration**
-   - **English:** This is the most common way to define a function. You declare it using the `function` keyword followed by the function name, parameters, and the body of the function.
-   - **Bangla:** এটি একটি ফাংশন ডিফাইন করার সবচেয়ে সাধারণ উপায়। আপনি `function` কিওয়ার্ড ব্যবহার করে ফাংশনটি ঘোষণা করেন, তারপরে ফাংশন নাম, প্যারামিটার এবং ফাংশনের শরীর।
+   Use Case: Use function declarations when you need a reusable block of code that can be called multiple times from anywhere in your program. */
 
-   - **Use Case:** Use function declarations when you need a reusable block of code that can be called multiple times from anywhere in your program.
-
-   - **Code Example:**
-     ```javascript
+   // Code Example:
      function greet(name) {
          console.log("Hello, " + name);
      }
 
      greet("John");  // Output: Hello, John
-     ```
-
----
+     
 
 /*  3. Function Expression
    English: A function expression involves assigning a function to a variable. The function can be anonymous (without a name) or named.
