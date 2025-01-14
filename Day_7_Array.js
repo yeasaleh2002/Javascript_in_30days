@@ -155,10 +155,4 @@
          return num > 3;
      });
      console.log(found);  // Output: 4
-     ```
-
----
-
-### Conclusion
-
-Arrays are essential for storing and working with ordered collections of data. They provide a powerful way to organize and manipulate data, and understanding how to use arrays effectively is a key skill in JavaScript development. Teaching your students to manipulate arrays will greatly improve their problem-solving abilities in programming.
+    
