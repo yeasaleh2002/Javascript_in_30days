@@ -157,11 +157,11 @@
 
 ---
 
-#### 10. **Higher-Order Functions**
-   - **English:** Higher-order functions are functions that take other functions as arguments or return functions as results.
-   - **Bangla:** হায়ার-অর্ডার ফাংশনগুলি হল এমন ফাংশন যা অন্য ফাংশনকে আর্গুমেন্ট হিসেবে নেয় বা ফাংশনকে ফলস্বরূপ ফেরত দেয়।
+// 10. Higher-Order Functions
+   // English: Higher-order functions are functions that take other functions as arguments or return functions as results.
+   // Bangla: হায়ার-অর্ডার ফাংশনগুলি হল এমন ফাংশন যা অন্য ফাংশনকে আর্গুমেন্ট হিসেবে নেয় বা ফাংশনকে ফলস্বরূপ ফেরত দেয়।
 
-   - **Use Case:** Higher-order functions are useful for composing complex operations by passing in functions as arguments.
+   // Use Case: Higher-order functions are useful for composing complex operations by passing in functions as arguments.
 
    // Code Example:
      function operate(a, b, operation) {
