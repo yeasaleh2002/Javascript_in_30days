@@ -140,13 +140,11 @@
      outer();  // Output: Outer variable
      ```
 
----
+  // 9. Anonymous Functions 
+   // English: Anonymous functions are functions without a name, often used as arguments to other functions or as callbacks.
+   // Bangla: অ্যানোনিমাস ফাংশনগুলি নামহীন ফাংশন, যা প্রায়শই অন্য ফাংশনের আর্গুমেন্ট হিসেবে বা কলব্যাক হিসেবে ব্যবহৃত হয়।
 
-#### 9. **Anonymous Functions**
-   - **English:** Anonymous functions are functions without a name, often used as arguments to other functions or as callbacks.
-   - **Bangla:** অ্যানোনিমাস ফাংশনগুলি নামহীন ফাংশন, যা প্রায়শই অন্য ফাংশনের আর্গুমেন্ট হিসেবে বা কলব্যাক হিসেবে ব্যবহৃত হয়।
-
-   - **Use Case:** Use anonymous functions when you need to pass a function temporarily, and don’t need to refer to it by name elsewhere.
+   // Use Case: Use anonymous functions when you need to pass a function temporarily, and don’t need to refer to it by name elsewhere.
 
    // Code Example: 
      setTimeout(function() {
