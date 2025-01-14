@@ -125,8 +125,7 @@
 
    - **Use Case:** Use nested functions when you need to perform a task within a function and need to use values from the outer function.
 
-   - **Code Example:**
-     ```javascript
+   // Code Example:
      function outer() {
          let outerVar = "Outer variable";
 
@@ -138,7 +137,6 @@
      }
 
      outer();  // Output: Outer variable
-     ```
 
   // 9. Anonymous Functions 
    // English: Anonymous functions are functions without a name, often used as arguments to other functions or as callbacks.
