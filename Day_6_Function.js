@@ -34,31 +34,28 @@
 
 ---
 
-#### 3. **Function Expression**
-   - **English:** A function expression involves assigning a function to a variable. The function can be anonymous (without a name) or named.
-   - **Bangla:** একটি ফাংশন এক্সপ্রেশন হল একটি ভ্যারিয়েবলে একটি ফাংশন অ্যাসাইন করা। ফাংশনটি অ্যানোনিমাস (নাম ছাড়া) বা নামকৃত হতে পারে।
+/*  3. Function Expression
+   English: A function expression involves assigning a function to a variable. The function can be anonymous (without a name) or named.
+   Bangla: একটি ফাংশন এক্সপ্রেশন হল একটি ভ্যারিয়েবলে একটি ফাংশন অ্যাসাইন করা। ফাংশনটি অ্যানোনিমাস (নাম ছাড়া) বা নামকৃত হতে পারে।
 
-   - **Use Case:** Function expressions are useful when you want to pass a function as an argument to another function or if you only need the function temporarily.
+   Use Case: Function expressions are useful when you want to pass a function as an argument to another function or if you only need the function temporarily.*/
+  //  Code Example: 
+   
 
-   - **Code Example:**
-     ```javascript
      const sayHi = function(name) {
          console.log("Hi, " + name);
      };
 
      sayHi("Alice");  // Output: Hi, Alice
-     ```
+    
 
----
+/*  4. Arrow Functions
+   English: Arrow functions are a shorthand for writing functions in JavaScript. They are often used for writing concise functions that do not need a function name.
+   Bangla: অ্যারো ফাংশনগুলি জাভাস্ক্রিপ্টে ফাংশন লেখার জন্য একটি সংক্ষিপ্ত পদ্ধতি। এগুলি প্রায়শই এমন ছোট ফাংশন লেখার জন্য ব্যবহার করা হয় যেগুলির ফাংশন নামের প্রয়োজন নেই। */
 
-#### 4. **Arrow Functions**
-   - **English:** Arrow functions are a shorthand for writing functions in JavaScript. They are often used for writing concise functions that do not need a function name.
-   - **Bangla:** অ্যারো ফাংশনগুলি জাভাস্ক্রিপ্টে ফাংশন লেখার জন্য একটি সংক্ষিপ্ত পদ্ধতি। এগুলি প্রায়শই এমন ছোট ফাংশন লেখার জন্য ব্যবহার করা হয় যেগুলির ফাংশন নামের প্রয়োজন নেই।
+   // Use Case: Use arrow functions when you want to write small functions, especially when they will be used as arguments to other functions or callbacks.
 
-   - **Use Case:** Use arrow functions when you want to write small functions, especially when they will be used as arguments to other functions or callbacks.
-
-   - **Code Example:**
-     ```javascript
+   // Code Example:
      const add = (a, b) => a + b;
 
      console.log(add(2, 3));  // Output: 5
