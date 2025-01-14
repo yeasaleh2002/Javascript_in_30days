@@ -148,14 +148,11 @@
 
    - **Use Case:** Use anonymous functions when you need to pass a function temporarily, and don’t need to refer to it by name elsewhere.
 
-   - **Code Example:**
-     ```javascript
+   // Code Example: 
      setTimeout(function() {
          console.log("This is an anonymous function");
      }, 1000);
-     ```
 
----
 
 // 10. Higher-Order Functions
    // English: Higher-order functions are functions that take other functions as arguments or return functions as results.
