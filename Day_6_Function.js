@@ -62,45 +62,34 @@
      const add = (a, b) => a + b;
 
      console.log(add(2, 3));  // Output: 5
-     ```
+   
+ // Parameters vs Arguments
+   // English: Parameters are the named variables that are used in the function definition. Arguments are the actual values passed to the function when it is called.
+   // Bangla: প্যারামিটারগুলি হল নামকৃত ভ্যারিয়েবলগুলি যা ফাংশন ডিফিনিশনে ব্যবহৃত হয়। আর্গুমেন্টগুলি হল আসল মান যা ফাংশন কল করার সময় পাস করা হয়।
 
----
+   // Use Case: Parameters define what inputs the function expects, while arguments are the actual values you pass when calling the function.
 
-#### 5. **Parameters vs Arguments**
-   - **English:** Parameters are the named variables that are used in the function definition. Arguments are the actual values passed to the function when it is called.
-   - **Bangla:** প্যারামিটারগুলি হল নামকৃত ভ্যারিয়েবলগুলি যা ফাংশন ডিফিনিশনে ব্যবহৃত হয়। আর্গুমেন্টগুলি হল আসল মান যা ফাংশন কল করার সময় পাস করা হয়।
-
-   - **Use Case:** Parameters define what inputs the function expects, while arguments are the actual values you pass when calling the function.
-
-   - **Code Example:**
-     ```javascript
+   // Code Example:
      function multiply(a, b) {
          return a * b;
      }
 
      console.log(multiply(4, 5));  // Output: 20
-     ```
 
----
+  // 6. Return Statement
+   // English: The `return` statement is used to exit a function and optionally return a value.
+   // Bangla: `return` স্টেটমেন্টটি একটি ফাংশন থেকে বেরিয়ে আসার জন্য এবং ঐচ্ছিকভাবে একটি মান ফেরত দেওয়ার জন্য ব্যবহৃত হয়।
 
-#### 6. **Return Statement**
-   - **English:** The `return` statement is used to exit a function and optionally return a value.
-   - **Bangla:** `return` স্টেটমেন্টটি একটি ফাংশন থেকে বেরিয়ে আসার জন্য এবং ঐচ্ছিকভাবে একটি মান ফেরত দেওয়ার জন্য ব্যবহৃত হয়।
+   // Use Case: Return is used when you want the function to provide a value as output. This value can be used elsewhere in the program.
 
-   - **Use Case:** Return is used when you want the function to provide a value as output. This value can be used elsewhere in the program.
-
-   - **Code Example:**
-     ```javascript
+   // Code Example: 
      function square(x) {
          return x * x;
      }
 
      let result = square(4);  // result = 16
      console.log(result);  // Output: 16
-     ```
-
----
-
+   
   // 7. Function Scope
    // English: Scope refers to the visibility and accessibility of variables. Variables declared inside a function are not accessible outside of it (local scope).
    // Bangla: স্কোপ বলতে ভ্যারিয়েবলগুলির দৃশ্যমানতা এবং অ্যাক্সেসযোগ্যতা বোঝানো হয়। একটি ফাংশনের ভিতরে ডিক্লেয়ার করা ভ্যারিয়েবলগুলি তার বাইরের পরিবেশে অ্যাক্সেসযোগ্য নয় (লোকাল স্কোপ)।
