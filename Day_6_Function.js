@@ -101,29 +101,26 @@
 
 ---
 
-#### 7. **Function Scope**
-   - **English:** Scope refers to the visibility and accessibility of variables. Variables declared inside a function are not accessible outside of it (local scope).
-   - **Bangla:** স্কোপ বলতে ভ্যারিয়েবলগুলির দৃশ্যমানতা এবং অ্যাক্সেসযোগ্যতা বোঝানো হয়। একটি ফাংশনের ভিতরে ডিক্লেয়ার করা ভ্যারিয়েবলগুলি তার বাইরের পরিবেশে অ্যাক্সেসযোগ্য নয় (লোকাল স্কোপ)।
+  // 7. Function Scope
+   // English: Scope refers to the visibility and accessibility of variables. Variables declared inside a function are not accessible outside of it (local scope).
+   // Bangla: স্কোপ বলতে ভ্যারিয়েবলগুলির দৃশ্যমানতা এবং অ্যাক্সেসযোগ্যতা বোঝানো হয়। একটি ফাংশনের ভিতরে ডিক্লেয়ার করা ভ্যারিয়েবলগুলি তার বাইরের পরিবেশে অ্যাক্সেসযোগ্য নয় (লোকাল স্কোপ)।
 
-   - **Use Case:** Use function scope to limit the scope of variables, preventing naming conflicts or accidental modifications.
+   // Use Case: Use function scope to limit the scope of variables, preventing naming conflicts or accidental modifications.
 
-   - **Code Example:**
-     ```javascript
+   // Code Example:
      function testScope() {
          let inside = "I am inside the function";
          console.log(inside);  // Accessible here
      }
 
      // console.log(inside);  // Error: inside is not defined
-     ```
+     
 
----
+  // 8. Nested Functions
+   // English: A function can be defined inside another function. The inner function can access the variables of the outer function.
+   // Bangla: একটি ফাংশন আরেকটি ফাংশনের ভিতরে ডিফাইন করা যেতে পারে। অভ্যন্তরীণ ফাংশনটি বাইরের ফাংশনের ভ্যারিয়েবলগুলিতে অ্যাক্সেস করতে পারে।
 
-#### 8. **Nested Functions**
-   - **English:** A function can be defined inside another function. The inner function can access the variables of the outer function.
-   - **Bangla:** একটি ফাংশন আরেকটি ফাংশনের ভিতরে ডিফাইন করা যেতে পারে। অভ্যন্তরীণ ফাংশনটি বাইরের ফাংশনের ভ্যারিয়েবলগুলিতে অ্যাক্সেস করতে পারে।
-
-   - **Use Case:** Use nested functions when you need to perform a task within a function and need to use values from the outer function.
+   // Use Case: Use nested functions when you need to perform a task within a function and need to use values from the outer function.
 
    // Code Example:
      function outer() {
