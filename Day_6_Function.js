@@ -163,14 +163,10 @@
 
    - **Use Case:** Higher-order functions are useful for composing complex operations by passing in functions as arguments.
 
-   - **Code Example:**
-     ```javascript
+   // Code Example:
      function operate(a, b, operation) {
          return operation(a, b);
      }
 
      const sum = (a, b) => a + b;
      console.log(operate(5, 3, sum));  // Output: 8
-     ```
-
----
