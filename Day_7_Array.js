@@ -126,22 +126,18 @@
 
 ---
 
-#### 8. **Array Destructuring**
-   - **English:** Array destructuring allows you to unpack values from an array into separate variables.
-   - **Bangla:** অ্যারে ডিস্ট্রাকচারিং আপনাকে একটি অ্যারের মানগুলো আলাদা ভ্যারিয়েবলে আনপ্যাক করার সুযোগ দেয়।
+  /* 8. Array Destructuring
+   English: Array destructuring allows you to unpack values from an array into separate variables.
+   Bangla: অ্যারে ডিস্ট্রাকচারিং আপনাকে একটি অ্যারের মানগুলো আলাদা ভ্যারিয়েবলে আনপ্যাক করার সুযোগ দেয়।
 
-   - **Use Case:** Use array destructuring when you want to easily extract values from an array and assign them to variables.
+   Use Case: Use array destructuring when you want to easily extract values from an array and assign them to variables. */
 
-   - **Code Example:**
-     ```javascript
+   // Code Example:
      let fruits = ["apple", "banana", "cherry"];
      let [first, second] = fruits;
      console.log(first);  // Output: apple
      console.log(second);  // Output: banana
-     ```
-
----
-
+    
   /* // 9. Finding Elements in an Array
     // English: You can find elements in an array using methods like `.find()`, `.indexOf()`, and `.includes()`.
    // Bangla: আপনি `.find()`, `.indexOf()`, এবং `.includes()` এর মতো মেথড ব্যবহার করে একটি অ্যারের উপাদান খুঁজে পেতে পারেন।
