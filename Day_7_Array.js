@@ -142,14 +142,13 @@
 
 ---
 
-#### 9. **Finding Elements in an Array**
-   - **English:** You can find elements in an array using methods like `.find()`, `.indexOf()`, and `.includes()`.
-   - **Bangla:** আপনি `.find()`, `.indexOf()`, এবং `.includes()` এর মতো মেথড ব্যবহার করে একটি অ্যারের উপাদান খুঁজে পেতে পারেন।
+  /* // 9. Finding Elements in an Array
+    // English: You can find elements in an array using methods like `.find()`, `.indexOf()`, and `.includes()`.
+   // Bangla: আপনি `.find()`, `.indexOf()`, এবং `.includes()` এর মতো মেথড ব্যবহার করে একটি অ্যারের উপাদান খুঁজে পেতে পারেন।
 
-   - **Use Case:** These methods are used to search for elements within an array, useful when you need to check if an item exists or to locate it.
+   // Use Case: These methods are used to search for elements within an array, useful when you need to check if an item exists or to locate it. */
 
-   - **Code Example (find):**
-     ```javascript
+   // Code Example (find): 
      let numbers = [1, 2, 3, 4, 5];
      let found = numbers.find(function(num) {
          return num > 3;
