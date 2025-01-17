@@ -122,11 +122,11 @@
 
 ---
 
-#### 8. **Object Constructor**
-   - **English:** You can create objects using a constructor function. This allows you to create multiple instances of the same type of object.
-   - **Bangla:** আপনি একটি কন্সট্রাক্টর ফাংশন ব্যবহার করে অবজেক্ট তৈরি করতে পারেন। এটি আপনাকে একই ধরনের অবজেক্টের একাধিক ইনস্ট্যান্স তৈরি করতে দেয়।
+// #### 8. **Object Constructor**
+  //  - **English:** You can create objects using a constructor function. This allows you to create multiple instances of the same type of object.
+  //  - **Bangla:** আপনি একটি কন্সট্রাক্টর ফাংশন ব্যবহার করে অবজেক্ট তৈরি করতে পারেন। এটি আপনাকে একই ধরনের অবজেক্টের একাধিক ইনস্ট্যান্স তৈরি করতে দেয়।
 
-   - **Use Case:** Constructor functions are used when you need to create many objects of the same type with different properties.
+  //  - **Use Case:** Constructor functions are used when you need to create many objects of the same type with different properties.
 
   //  Code Example:
      function Person(name, age) {
