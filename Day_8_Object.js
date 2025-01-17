@@ -58,18 +58,14 @@
 
    - **Use Case:** You can use this when you want to modify an object by adding new attributes or changing existing ones.
 
-   - **Code Example:**
-     ```javascript
+  //  Code Example:
      let user = { name: "Bob", age: 30 };
      user.email = "bob@example.com";  // Adding new property
      user.age = 31;  // Updating existing property
      console.log(user);  // Output: { name: "Bob", age: 31, email: "bob@example.com" }
-     ```
 
----
-
-#### 5. **Deleting Object Properties**
-   - **English:** You can remove a property from an object using the `delete` operator.
+// #### 5. **Deleting Object Properties**
+  //  - **English:** You can remove a property from an object using the `delete` operator.
   //  - **Bangla:** আপনি `delete` অপারেটর ব্যবহার করে একটি অবজেক্ট থেকে প্রপার্টি মুছে ফেলতে পারেন।
 
   //  - **Use Case:** Useful when you want to clean up an object by removing unnecessary properties.
