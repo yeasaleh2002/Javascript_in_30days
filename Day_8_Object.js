@@ -148,15 +148,11 @@
 
    - **Use Case:** Object destructuring makes it easier to work with objects, especially when you only need specific properties.
 
-   - **Code Example:**
-     ```javascript
+  //  Code Example:
      let person = { name: "Tom", age: 40 };
      let { name, age } = person;
      console.log(name);  // Output: Tom
      console.log(age);   // Output: 40
-     ```
-
----
 
 // #### 10. **The `this` Keyword**
 //    - **English:** Inside an object method, the `this` keyword refers to the object itself.
