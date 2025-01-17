@@ -166,13 +166,11 @@ const triple = createMultiplier(3);
 
 console.log(double(5)); // Output: 10
 console.log(triple(5)); // Output: 15
-```
 
-**In Bengali:**
-ক্লোজারগুলি ফাংশন ফ্যাক্টরি তৈরি করতে ব্যবহৃত হতে পারে—এমন ফাংশন যা তাদের ইনপুটের ভিত্তিতে বিভিন্ন আচরণ সহ অন্য ফাংশন তৈরি করে।
+// **In Bengali:**
+// ক্লোজারগুলি ফাংশন ফ্যাক্টরি তৈরি করতে ব্যবহৃত হতে পারে—এমন ফাংশন যা তাদের ইনপুটের ভিত্তিতে বিভিন্ন আচরণ সহ অন্য ফাংশন তৈরি করে।
 
-**উদাহরণ:**
-```javascript
+// **উদাহরণ:
 function createMultiplier(multiplier) {
     return function(number) {
         return number * multiplier;
@@ -184,9 +182,6 @@ const triple = createMultiplier(3);
 
 console.log(double(5)); // আউটপুট: 10
 console.log(triple(5)); // আউটপুট: 15
-```
-
----
 
 // ### **Conclusion**
 
