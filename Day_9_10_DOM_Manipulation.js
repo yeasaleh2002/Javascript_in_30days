@@ -113,11 +113,11 @@
 
 ---
 
-#### 8. **Traversing the DOM**
-   - **English:** You can traverse the DOM using methods like `parentNode`, `childNodes`, `nextElementSibling`, and `previousElementSibling` to navigate through elements in the DOM tree.
-   - **Bangla:** আপনি `parentNode`, `childNodes`, `nextElementSibling`, এবং `previousElementSibling` এর মতো পদ্ধতি ব্যবহার করে DOM-এর মাধ্যমে ট্রাভার্স করতে পারেন, যা আপনাকে DOM ট্রিতে এলিমেন্টগুলির মধ্যে নেভিগেট করতে সাহায্য করে।
+// #### 8. **Traversing the DOM**
+  //  - **English:** You can traverse the DOM using methods like `parentNode`, `childNodes`, `nextElementSibling`, and `previousElementSibling` to navigate through elements in the DOM tree.
+  //  - **Bangla:** আপনি `parentNode`, `childNodes`, `nextElementSibling`, এবং `previousElementSibling` এর মতো পদ্ধতি ব্যবহার করে DOM-এর মাধ্যমে ট্রাভার্স করতে পারেন, যা আপনাকে DOM ট্রিতে এলিমেন্টগুলির মধ্যে নেভিগেট করতে সাহায্য করে।
 
-   - **Use Case:** Traversing the DOM is useful when you want to navigate between elements, for example, getting the parent of an element or the next sibling in a list.
+  //  - **Use Case:** Traversing the DOM is useful when you want to navigate between elements, for example, getting the parent of an element or the next sibling in a list.
 
   //  Code Example:
      let listItem = document.getElementById("item");
