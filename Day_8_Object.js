@@ -128,8 +128,7 @@
 
    - **Use Case:** Constructor functions are used when you need to create many objects of the same type with different properties.
 
-   - **Code Example:**
-     ```javascript
+  //  Code Example:
      function Person(name, age) {
          this.name = name;
          this.age = age;
@@ -138,9 +137,6 @@
      let person2 = new Person("Kate", 30);
      console.log(person1.name);  // Output: Sam
      console.log(person2.age);   // Output: 30
-     ```
-
----
 
 // #### 9. **Object Destructuring**
   //  - **English:** Object destructuring allows you to unpack values from an object and assign them to variables.
