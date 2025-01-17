@@ -162,10 +162,10 @@
    - **English:** Inside an object method, the `this` keyword refers to the object itself.
    - **Bangla:** একটি অবজেক্ট মেথডের মধ্যে, `this` কিওয়ার্ডটি অবজেক্টটিকে বোঝায়।
 
-   - **Use Case:** `this` is useful when you want to refer to the object itself, especially when working with methods inside the object.
+  //  - **Use Case:** `this` is useful when you want to refer to the object itself, especially when working with methods inside the object.
 
-   - **Code Example:**
-     ```javascript
+  //  Code Example:
+
      let person = {
          name: "John",
          greet: function() {
@@ -173,6 +173,4 @@
          }
      };
      person.greet();  // Output: Hello, John
-     ```
 
----
