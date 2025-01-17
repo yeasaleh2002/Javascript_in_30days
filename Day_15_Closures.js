@@ -148,13 +148,11 @@ console.log(myCounter.getCount()); // আউটপুট: 2
 
 ---
 
-#### **2. Function Factories**
+// #### **2. Function Factories**
+// **In English:**
+// Closures can be used to create function factories—functions that generate other functions with different behavior based on their inputs.
 
-**In English:**
-Closures can be used to create function factories—functions that generate other functions with different behavior based on their inputs.
-
-**Example:**
-```javascript
+// **Example:
 function createMultiplier(multiplier) {
     return function(number) {
         return number * multiplier;
