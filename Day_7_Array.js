@@ -10,11 +10,9 @@
     //  ```javascript
      let fruits = ["apple", "banana", "orange"];
      console.log(fruits[1]);  // Output: banana
-     ```
+  
 
----
-
-#### 2. **Array Declaration**
+// #### 2. **Array Declaration**
    - **English:** You can declare an array in JavaScript using square brackets (`[]`) and separate values with commas.
    - **Bangla:** আপনি জাভাস্ক্রিপ্টে একটি অ্যারে ডিক্লেয়ার করতে পারেন কোণের ব্র্যাকেট (`[]`) ব্যবহার করে এবং মানগুলি কমা দ্বারা আলাদা করে।
 
