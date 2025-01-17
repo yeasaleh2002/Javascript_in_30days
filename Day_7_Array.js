@@ -16,15 +16,11 @@
   //  - **English:** You can declare an array in JavaScript using square brackets (`[]`) and separate values with commas.
   //  - **Bangla:** আপনি জাভাস্ক্রিপ্টে একটি অ্যারে ডিক্লেয়ার করতে পারেন কোণের ব্র্যাকেট (`[]`) ব্যবহার করে এবং মানগুলি কমা দ্বারা আলাদা করে।
 
-   - **Use Case:** Use array declarations when you need to initialize a list of items at the beginning of your program.
+  //  - **Use Case:** Use array declarations when you need to initialize a list of items at the beginning of your program.
 
-   - **Code Example:**
-     ```javascript
+  //  - **Code Example:**
      let numbers = [1, 2, 3, 4, 5];
      console.log(numbers);  // Output: [1, 2, 3, 4, 5]
-     ```
-
----
 
 #### 3. **Accessing Array Elements**
    - **English:** You can access individual elements of an array using an index. Arrays are zero-indexed, meaning the first element is at index 0.
