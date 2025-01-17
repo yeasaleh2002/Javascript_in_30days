@@ -80,15 +80,14 @@ You can use `filter()` to extract specific elements from an array based on a giv
 
 ### **3. `reduce()` Method**
 
-**In English:**
-The `reduce()` method executes a reducer function (provided by the user) on each element in the array, resulting in a single output value. It is often used for calculating sums, products, or reducing an array to a single value based on custom logic.
+// **In English:**
+// The `reduce()` method executes a reducer function (provided by the user) on each element in the array, resulting in a single output value. It is often used for calculating sums, products, or reducing an array to a single value based on custom logic.
 
-**Syntax:**
-```javascript
+// **Syntax:**
 let result = array.reduce(function(accumulator, currentValue) {
     return accumulator + currentValue; // Example operation
 }, initialValue);
-```
+
 
 // **Example:**
 let numbers = [1, 2, 3, 4, 5];
