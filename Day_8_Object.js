@@ -109,8 +109,8 @@
 
    - **Use Case:** Methods allow objects to perform actions based on the data they hold. For example, a `car` object can have a `drive` method that outputs a message.
 
-   - **Code Example:**
-     ```javascript
+  //  Code Example:
+  
      let dog = {
          name: "Buddy",
          bark: function() {
@@ -118,9 +118,6 @@
          }
      };
      dog.bark();  // Output: Woof!
-     ```
-
----
 
 // #### 8. **Object Constructor**
   //  - **English:** You can create objects using a constructor function. This allows you to create multiple instances of the same type of object.
