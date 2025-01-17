@@ -158,9 +158,9 @@
 
 ---
 
-#### 10. **The `this` Keyword**
-   - **English:** Inside an object method, the `this` keyword refers to the object itself.
-   - **Bangla:** একটি অবজেক্ট মেথডের মধ্যে, `this` কিওয়ার্ডটি অবজেক্টটিকে বোঝায়।
+// #### 10. **The `this` Keyword**
+//    - **English:** Inside an object method, the `this` keyword refers to the object itself.
+//    - **Bangla:** একটি অবজেক্ট মেথডের মধ্যে, `this` কিওয়ার্ডটি অবজেক্টটিকে বোঝায়।
 
   //  - **Use Case:** `this` is useful when you want to refer to the object itself, especially when working with methods inside the object.
 
