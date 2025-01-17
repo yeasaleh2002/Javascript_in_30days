@@ -42,9 +42,9 @@
      let languages = ["English", "Spanish", "French"];
      console.log(languages.length);  // Output: 3
 
-#### 5. **Array Methods**
-   - **English:** JavaScript provides many built-in array methods that help manipulate or work with arrays. Some common ones are:
-     - `.push()` - Adds an item to the end of an array.
+// #### 5. **Array Methods**
+  //  - **English:** JavaScript provides many built-in array methods that help manipulate or work with arrays. Some common ones are:
+    //  - `.push()` - Adds an item to the end of an array.
      - `.pop()` - Removes the last item from an array.
      - `.shift()` - Removes the first item from an array.
      - `.unshift()` - Adds an item to the beginning of an array.
