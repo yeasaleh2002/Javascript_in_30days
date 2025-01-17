@@ -80,13 +80,12 @@ Closures are particularly useful in JavaScript for several reasons:
 
 3. **কলব্যাক এবং ইভেন্ট হ্যান্ডলার:** ক্লোজারগুলি অ্যাসিঙ্ক্রোনাস প্রোগ্রামিং-এ (যেমন কলব্যাক, ইভেন্ট হ্যান্ডলার, এবং প্রমিস) ব্যবহৃত হয় যাতে ফাংশনটি তৈরি হওয়া পরিবেশ মনে রাখতে পারে।
 
-4. **স্টেট বজায় রাখা:** ক্লোজারগুলি প্রায়ই ফাংশন কলের মধ্যে স্টেট বজায় রাখতে ব্যবহৃত হয়। আপনি এমন একটি ফাংশন তৈরি করতে পারেন যা একাধিক কলের মধ্যে একটি কাউন্ট বা মান বজায় রাখে।
+// 4. **স্টেট বজায় রাখা:** ক্লোজারগুলি প্রায়ই ফাংশন কলের মধ্যে স্টেট বজায় রাখতে ব্যবহৃত হয়। আপনি এমন একটি ফাংশন তৈরি করতে পারেন যা একাধিক কলের মধ্যে একটি কাউন্ট বা মান বজায় রাখে।
 
----
 
-### **Examples of Closures in Real Life**
+// ### **Examples of Closures in Real Life**
 
-#### **1. Private Variables**
+// #### **1. Private Variables**
 
 // **In English:**
 // Closures are commonly used to create private variables that cannot be accessed directly from outside the function. This is particularly useful when you want to protect sensitive data.
