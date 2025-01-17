@@ -32,19 +32,15 @@
      console.log(colors[0]);  // Output: red
      console.log(colors[2]);  // Output: blue
 
-#### 4. **Array Length**
-   - **English:** The `length` property returns the number of elements in an array.
-   - **Bangla:** `length` প্রপার্টি একটি অ্যারের উপাদানগুলির সংখ্যা রিটার্ন করে।
+// #### 4. **Array Length**
+  //  - **English:** The `length` property returns the number of elements in an array.
+  //  - **Bangla:** `length` প্রপার্টি একটি অ্যারের উপাদানগুলির সংখ্যা রিটার্ন করে।
 
-   - **Use Case:** Use the `length` property when you need to know the size of an array, especially when you want to iterate through all its elements.
+  //  - **Use Case:** Use the `length` property when you need to know the size of an array, especially when you want to iterate through all its elements.
 
-   - **Code Example:**
-     ```javascript
+  //  Code Example:
      let languages = ["English", "Spanish", "French"];
      console.log(languages.length);  // Output: 3
-     ```
-
----
 
 #### 5. **Array Methods**
    - **English:** JavaScript provides many built-in array methods that help manipulate or work with arrays. Some common ones are:
