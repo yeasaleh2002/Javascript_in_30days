@@ -29,10 +29,10 @@ An event is an action or occurrence that is detected by the program, usually tri
    - `change`: Triggered when the value of an input field changes.
    - `focus` and `blur`: Triggered when an input field gains or loses focus.
 
-4. **Window Events:**
-   - `resize`: Triggered when the window is resized.
-   - `scroll`: Triggered when the page is scrolled.
-   - `load`: Triggered when the page or element finishes loading.
+// 4. **Window Events:**
+//    - `resize`: Triggered when the window is resized.
+//    - `scroll`: Triggered when the page is scrolled.
+//    - `load`: Triggered when the page or element finishes loading.
 
 // **In Bengali:**
 // 1. **মাউস ইভেন্ট:**
