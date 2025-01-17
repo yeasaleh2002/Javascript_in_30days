@@ -154,11 +154,10 @@ async function getData() {
 getData();
 ```
 
-**In Bengali:**
-আপনি প্রমিস এবং async/await মিশ্রিত করে জটিল অ্যাসিঙ্ক্রোনাস ওয়ার্কফ্লো হ্যান্ডল করতে পারেন।
+// **In Bengali:**
+// আপনি প্রমিস এবং async/await মিশ্রিত করে জটিল অ্যাসিঙ্ক্রোনাস ওয়ার্কফ্লো হ্যান্ডল করতে পারেন।
 
-**উদাহরণ:**
-```javascript
+// **উদাহরণ:**
 function fetchData(url) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -178,9 +177,6 @@ async function getData() {
 }
 
 getData();
-```
-
----
 
 // ### **Conclusion**
 
