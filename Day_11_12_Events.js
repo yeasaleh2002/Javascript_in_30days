@@ -19,10 +19,10 @@ An event is an action or occurrence that is detected by the program, usually tri
    - `mouseover` and `mouseout`: Triggered when the mouse pointer enters or leaves an element.
    - `mousemove`: Triggered when the mouse moves over an element.
 
-2. **Keyboard Events:**
-   - `keydown`: Triggered when a key is pressed down.
-   - `keyup`: Triggered when a key is released.
-   - `keypress`: Triggered when a key is pressed and generates a character (Note: `keypress` is deprecated in some browsers).
+// 2. **Keyboard Events:**
+//    - `keydown`: Triggered when a key is pressed down.
+//    - `keyup`: Triggered when a key is released.
+//    - `keypress`: Triggered when a key is pressed and generates a character (Note: `keypress` is deprecated in some browsers).
 
 // 3. **Form Events:**
 //    - `submit`: Triggered when a form is submitted.
