@@ -83,11 +83,11 @@
 
 ---
 
-#### 6. **Nested Objects**
-   - **English:** Objects can contain other objects as values. This is known as a nested object.
-   - **Bangla:** অবজেক্টগুলি অন্য অবজেক্টকে মান হিসেবে ধারণ করতে পারে। এটি একটি নেস্টেড অবজেক্ট বলা হয়।
+// #### 6. **Nested Objects**
+  //  - **English:** Objects can contain other objects as values. This is known as a nested object.
+  //  - **Bangla:** অবজেক্টগুলি অন্য অবজেক্টকে মান হিসেবে ধারণ করতে পারে। এটি একটি নেস্টেড অবজেক্ট বলা হয়।
 
-   - **Use Case:** Nested objects are used when you need to represent hierarchical or more complex data structures.
+  //  - **Use Case:** Nested objects are used when you need to represent hierarchical or more complex data structures.
 
   //  Code Example:
      let company = {
