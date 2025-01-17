@@ -103,14 +103,14 @@
 
 ---
 
-#### 7. **Object Methods**
-   - **English:** You can define methods inside an object. A method is a function that is a property of an object.
-   - **Bangla:** আপনি একটি অবজেক্টের ভিতরে মেথড ডিফাইন করতে পারেন। একটি মেথড হল একটি ফাংশন যা একটি অবজেক্টের প্রপার্টি।
+// #### 7. **Object Methods**
+  //  - **English:** You can define methods inside an object. A method is a function that is a property of an object.
+  //  - **Bangla:** আপনি একটি অবজেক্টের ভিতরে মেথড ডিফাইন করতে পারেন। একটি মেথড হল একটি ফাংশন যা একটি অবজেক্টের প্রপার্টি।
 
-   - **Use Case:** Methods allow objects to perform actions based on the data they hold. For example, a `car` object can have a `drive` method that outputs a message.
+  //  - **Use Case:** Methods allow objects to perform actions based on the data they hold. For example, a `car` object can have a `drive` method that outputs a message.
 
   //  Code Example:
-  
+
      let dog = {
          name: "Buddy",
          bark: function() {
