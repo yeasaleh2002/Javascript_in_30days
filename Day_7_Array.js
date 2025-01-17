@@ -45,8 +45,8 @@
 // #### 5. **Array Methods**
   //  - **English:** JavaScript provides many built-in array methods that help manipulate or work with arrays. Some common ones are:
     //  - `.push()` - Adds an item to the end of an array.
-     - `.pop()` - Removes the last item from an array.
-     - `.shift()` - Removes the first item from an array.
+    //  - `.pop()` - Removes the last item from an array.
+    //  - `.shift()` - Removes the first item from an array.
      - `.unshift()` - Adds an item to the beginning of an array.
    - **Bangla:** জাভাস্ক্রিপ্ট অনেক বিল্ট-ইন অ্যারে মেথড সরবরাহ করে যা অ্যারের সাথে কাজ করতে বা তা পরিবর্তন করতে সহায়ক। কিছু সাধারণ মেথড হল:
      - `.push()` - একটি আইটেম অ্যারের শেষে যোগ করে।
