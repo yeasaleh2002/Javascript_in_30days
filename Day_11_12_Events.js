@@ -61,10 +61,9 @@ An event is an action or occurrence that is detected by the program, usually tri
 #### **Event Handling:**
 
 **In English:**
-Event handling is the process of responding to user actions or other occurrences by running specific code when an event is triggered. In JavaScript, event handling can be achieved by adding event listeners to elements.
+// Event handling is the process of responding to user actions or other occurrences by running specific code when an event is triggered. In JavaScript, event handling can be achieved by adding event listeners to elements.
 
-**Example:**
-```javascript
+// **Example:**
 document.getElementById("myButton").addEventListener("click", function() {
     alert("Button clicked!");
 });
