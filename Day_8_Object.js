@@ -142,11 +142,11 @@
 
 ---
 
-#### 9. **Object Destructuring**
-   - **English:** Object destructuring allows you to unpack values from an object and assign them to variables.
-   - **Bangla:** অবজেক্ট ডিস্ট্রাকচারিং আপনাকে একটি অবজেক্ট থেকে মানগুলো আলাদা ভ্যারিয়েবলে আনপ্যাক করার সুযোগ দেয়।
+// #### 9. **Object Destructuring**
+  //  - **English:** Object destructuring allows you to unpack values from an object and assign them to variables.
+  //  - **Bangla:** অবজেক্ট ডিস্ট্রাকচারিং আপনাকে একটি অবজেক্ট থেকে মানগুলো আলাদা ভ্যারিয়েবলে আনপ্যাক করার সুযোগ দেয়।
 
-   - **Use Case:** Object destructuring makes it easier to work with objects, especially when you only need specific properties.
+  //  - **Use Case:** Object destructuring makes it easier to work with objects, especially when you only need specific properties.
 
   //  Code Example:
      let person = { name: "Tom", age: 40 };
