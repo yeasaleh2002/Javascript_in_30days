@@ -13,9 +13,9 @@
 
 ---
 
-#### 2. **Selecting Elements**
-   - **English:** To manipulate the DOM, you first need to select the elements you want to modify. You can use various methods to select elements like `getElementById()`, `getElementsByClassName()`, `querySelector()`, etc.
-   - **Bangla:** DOM ম্যানিপুলেট করতে, প্রথমে আপনাকে যেগুলি পরিবর্তন করতে চান সেগুলির এলিমেন্ট সিলেক্ট করতে হবে। আপনি বিভিন্ন পদ্ধতি ব্যবহার করে এলিমেন্ট সিলেক্ট করতে পারেন যেমন `getElementById()`, `getElementsByClassName()`, `querySelector()` ইত্যাদি।
+// #### 2. **Selecting Elements**
+  //  - **English:** To manipulate the DOM, you first need to select the elements you want to modify. You can use various methods to select elements like `getElementById()`, `getElementsByClassName()`, `querySelector()`, etc.
+  //  - **Bangla:** DOM ম্যানিপুলেট করতে, প্রথমে আপনাকে যেগুলি পরিবর্তন করতে চান সেগুলির এলিমেন্ট সিলেক্ট করতে হবে। আপনি বিভিন্ন পদ্ধতি ব্যবহার করে এলিমেন্ট সিলেক্ট করতে পারেন যেমন `getElementById()`, `getElementsByClassName()`, `querySelector()` ইত্যাদি।
 
   //  - **Use Case:** Selecting elements is essential when you want to change or manipulate specific parts of a webpage, like updating text or changing styles.
 
