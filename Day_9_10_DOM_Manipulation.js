@@ -81,11 +81,11 @@
 
 ---
 
-#### 6. **Event Handling**
-   - **English:** JavaScript allows you to handle events (like clicks, hover, or keyboard input) on DOM elements using methods like `addEventListener()`.
-   - **Bangla:** জাভাস্ক্রিপ্ট আপনাকে DOM এলিমেন্টে ইভেন্ট (যেমন ক্লিক, হোভার, বা কীবোর্ড ইনপুট) হ্যান্ডল করার সুযোগ দেয় `addEventListener()` এর মতো পদ্ধতি ব্যবহার করে।
+// #### 6. **Event Handling**
+  //  - **English:** JavaScript allows you to handle events (like clicks, hover, or keyboard input) on DOM elements using methods like `addEventListener()`.
+  //  - **Bangla:** জাভাস্ক্রিপ্ট আপনাকে DOM এলিমেন্টে ইভেন্ট (যেমন ক্লিক, হোভার, বা কীবোর্ড ইনপুট) হ্যান্ডল করার সুযোগ দেয় `addEventListener()` এর মতো পদ্ধতি ব্যবহার করে।
 
-   - **Use Case:** Event handling is essential for making a webpage interactive, such as responding to a button click, submitting a form, or changing the content dynamically based on user input.
+  //  - **Use Case:** Event handling is essential for making a webpage interactive, such as responding to a button click, submitting a form, or changing the content dynamically based on user input.
 
   //Code Example:
      let button = document.getElementById("myButton");
