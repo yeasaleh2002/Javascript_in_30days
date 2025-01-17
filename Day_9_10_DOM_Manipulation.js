@@ -31,9 +31,9 @@
 
 ---
 
-#### 3. **Changing Content**
-   - **English:** You can change the content of an element using properties like `innerHTML`, `textContent`, or `value`.
-   - **Bangla:** আপনি `innerHTML`, `textContent`, বা `value` এর মতো প্রপার্টি ব্যবহার করে একটি এলিমেন্টের কন্টেন্ট পরিবর্তন করতে পারেন।
+// #### 3. **Changing Content**
+  //  - **English:** You can change the content of an element using properties like `innerHTML`, `textContent`, or `value`.
+  //  - **Bangla:** আপনি `innerHTML`, `textContent`, বা `value` এর মতো প্রপার্টি ব্যবহার করে একটি এলিমেন্টের কন্টেন্ট পরিবর্তন করতে পারেন।
 
   //  - **Use Case:** This is useful when you want to dynamically update the content displayed on the page, such as showing a new message or updating form input values.
 
