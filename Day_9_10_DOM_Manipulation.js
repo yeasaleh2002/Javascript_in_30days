@@ -35,20 +35,16 @@
    - **English:** You can change the content of an element using properties like `innerHTML`, `textContent`, or `value`.
    - **Bangla:** আপনি `innerHTML`, `textContent`, বা `value` এর মতো প্রপার্টি ব্যবহার করে একটি এলিমেন্টের কন্টেন্ট পরিবর্তন করতে পারেন।
 
-   - **Use Case:** This is useful when you want to dynamically update the content displayed on the page, such as showing a new message or updating form input values.
+  //  - **Use Case:** This is useful when you want to dynamically update the content displayed on the page, such as showing a new message or updating form input values.
 
-   - **Code Example:**
-     ```javascript
+  //  Code Example:
      // Change the inner HTML of an element
      document.getElementById("demo").innerHTML = "Updated content!";
      // Change the text content
      document.getElementById("text").textContent = "New text content!";
-     ```
 
----
-
-#### 4. **Changing Styles**
-   - **English:** You can manipulate the styles of elements using the `style` property. This allows you to dynamically change the appearance of elements, such as changing colors, fonts, or layout.
+// #### 4. **Changing Styles**
+  //  - **English:** You can manipulate the styles of elements using the `style` property. This allows you to dynamically change the appearance of elements, such as changing colors, fonts, or layout.
   //  - **Bangla:** আপনি `style` প্রপার্টি ব্যবহার করে এলিমেন্টগুলির স্টাইল ম্যানিপুলেট করতে পারেন। এটি আপনাকে এলিমেন্টগুলির চেহারা ডাইনামিকভাবে পরিবর্তন করতে দেয়, যেমন রং, ফন্ট, বা লেআউট পরিবর্তন করা।
 
   //  - **Use Case:** Useful when you need to change the layout, theme, or design of a page based on user interactions, such as changing a button color on hover or showing hidden elements.
