@@ -87,15 +87,12 @@
 
    - **Use Case:** Event handling is essential for making a webpage interactive, such as responding to a button click, submitting a form, or changing the content dynamically based on user input.
 
-   - **Code Example:**
-     ```javascript
+  //Code Example:
      let button = document.getElementById("myButton");
      button.addEventListener("click", function() {
          alert("Button clicked!");
      });
-     ```
-
----
+   
 
 // #### 7. **Manipulating Classes**
   //  - **English:** You can manipulate the classes of elements using methods like `classList.add()`, `classList.remove()`, and `classList.toggle()`. This helps with adding, removing, or toggling styles dynamically.
