@@ -10,24 +10,20 @@ JavaScript-এ অ্যারে মেথডগুলি হল এমন ফ�
 
 ---
 
-### **1. `map()` Method**
+// ### **1. `map()` Method**
 
-**In English:**
-The `map()` method creates a new array populated with the results of calling a provided function on every element in the calling array. It does not modify the original array but returns a new array with transformed values.
+// **In English:**
+// The `map()` method creates a new array populated with the results of calling a provided function on every element in the calling array. It does not modify the original array but returns a new array with transformed values.
 
-**Syntax:**
-```javascript
+// **Syntax:**
 let newArray = array.map(function(element) {
     return element * 2; // Example operation
 });
-```
 
-**Example:**
-```javascript
+// **Example:
 let numbers = [1, 2, 3, 4, 5];
 let doubledNumbers = numbers.map(number => number * 2);
 console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]
-```
 
 // **In Bengali:**
 // `map()` মেথডটি একটি নতুন অ্যারে তৈরি করে যা কল করার সময় প্রতিটি উপাদানের উপর একটি প্রদত্ত ফাংশন কল করার ফলাফলে পূর্ণ হয়। এটি মূল অ্যারেটিকে পরিবর্তন করে না বরং রূপান্তরিত মানগুলির সাথে একটি নতুন অ্যারে প্রদান করে।
