@@ -24,10 +24,10 @@ An event is an action or occurrence that is detected by the program, usually tri
    - `keyup`: Triggered when a key is released.
    - `keypress`: Triggered when a key is pressed and generates a character (Note: `keypress` is deprecated in some browsers).
 
-3. **Form Events:**
-   - `submit`: Triggered when a form is submitted.
-   - `change`: Triggered when the value of an input field changes.
-   - `focus` and `blur`: Triggered when an input field gains or loses focus.
+// 3. **Form Events:**
+//    - `submit`: Triggered when a form is submitted.
+//    - `change`: Triggered when the value of an input field changes.
+//    - `focus` and `blur`: Triggered when an input field gains or loses focus.
 
 // 4. **Window Events:**
 //    - `resize`: Triggered when the window is resized.
