@@ -42,8 +42,7 @@ closure(); // Output: "I am from the outer function"
 
 যখন একটি অভ্যন্তরীণ ফাংশন বাইরের ফাংশন থেকে রিটার্ন করা হয়, তখন এটি বাইরের ফাংশনের ভেরিয়েবলগুলির অ্যাক্সেস রক্ষা করে, যদিও বাইরের ফাংশনটির কার্যক্রম শেষ হয়ে গেছে।
 
-**সিনট্যাক্স:**
-```javascript
+// **সিনট্যাক্স:
 function outerFunction() {
     let outerVar = "I am from the outer function";
     
@@ -56,9 +55,6 @@ function outerFunction() {
 
 const closure = outerFunction(); // অভ্যন্তরীণ ফাংশন রিটার্ন
 closure(); // আউটপুট: "I am from the outer function"
-```
-
----
 
 // ### **Why Closures Are Useful**
 
