@@ -97,10 +97,10 @@ function counter() {
     };
 }
 
-const myCounter = counter();
-console.log(myCounter.increment()); // Output: 1
-console.log(myCounter.increment()); // Output: 2
-console.log(myCounter.getCount()); // Output: 2
+const myCounter1 = counter();
+console.log(myCounter1.increment()); // Output: 1
+console.log(myCounter1.increment()); // Output: 2
+console.log(myCounter1.getCount()); // Output: 2
 
 // **In Bengali:**
 // ক্লোজারগুলি সাধারণত প্রাইভেট ভেরিয়েবল তৈরি করতে ব্যবহৃত হয় যা ফাংশনের বাইরে সরাসরি অ্যাক্সেসযোগ্য নয়। এটি বিশেষভাবে উপকারী যখন আপনি সংবেদনশীল ডেটা সুরক্ষিত রাখতে চান।
@@ -140,11 +140,11 @@ function createMultiplier(multiplier) {
     };
 }
 
-const double = createMultiplier(2);
-const triple = createMultiplier(3);
+const double1 = createMultiplier(2);
+const triple1 = createMultiplier(3);
 
-console.log(double(5)); // Output: 10
-console.log(triple(5)); // Output: 15
+console.log(double1(5)); // Output: 10
+console.log(triple1(5)); // Output: 15
 
 // **In Bengali:**
 // ক্লোজারগুলি ফাংশন ফ্যাক্টরি তৈরি করতে ব্যবহৃত হতে পারে—এমন ফাংশন যা তাদের ইনপুটের ভিত্তিতে বিভিন্ন আচরণ সহ অন্য ফাংশন তৈরি করে।
