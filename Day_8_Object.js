@@ -37,18 +37,16 @@
 
 ---
 
-#### 3. **Accessing Object Properties**
-   - **English:** You can access the properties of an object using either dot notation or bracket notation.
-   - **Bangla:** আপনি একটি অবজেক্টের প্রপার্টি অ্যাক্সেস করতে পারেন ডট নোটেশন অথবা ব্র্যাকেট নোটেশন ব্যবহার করে।
+// #### 3. **Accessing Object Properties**
+  //  - **English:** You can access the properties of an object using either dot notation or bracket notation.
+  //  - **Bangla:** আপনি একটি অবজেক্টের প্রপার্টি অ্যাক্সেস করতে পারেন ডট নোটেশন অথবা ব্র্যাকেট নোটেশন ব্যবহার করে।
+  //  - **Use Case:** Use dot notation when you know the property name and bracket notation when you need to use a variable or dynamic property name.
 
-   - **Use Case:** Use dot notation when you know the property name and bracket notation when you need to use a variable or dynamic property name.
-
-   - **Code Example:**
-     ```javascript
+  //  Code Example:
      let person = { name: "Alice", age: 25 };
      console.log(person.name);  // Output: Alice
      console.log(person["age"]);  // Output: 25
-     
+
 // #### 4. **Adding or Updating Object Properties**
   //  - **English:** You can add new properties to an object or update the existing ones by assigning a new value to a key.
   //  - **Bangla:** আপনি একটি অবজেক্টে নতুন প্রপার্টি যোগ করতে পারেন বা বিদ্যমান প্রপার্টির মান আপডেট করতে পারেন একটি নতুন মান নির্ধারণ করে।
