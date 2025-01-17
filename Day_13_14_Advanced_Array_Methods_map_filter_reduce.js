@@ -90,12 +90,10 @@ let result = array.reduce(function(accumulator, currentValue) {
 }, initialValue);
 ```
 
-**Example:**
-```javascript
+// **Example:**
 let numbers = [1, 2, 3, 4, 5];
 let sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 console.log(sum); // Output: 15
-```
 
 **In Bengali:**
 // `reduce()` মেথডটি একটি রিডিউসার ফাংশন (যা ব্যবহারকারী প্রদান করে) অ্যারেটির প্রতিটি উপাদানে চালায়, যার ফলে একটি একক আউটপুট মান পাওয়া যায়। এটি প্রায়ই যোগফল, গুণফল হিসাব করতে বা কাস্টম লজিকের ভিত্তিতে অ্যারে রিডিউস করতে ব্যবহৃত হয়।
