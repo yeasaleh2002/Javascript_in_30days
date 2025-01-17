@@ -66,11 +66,11 @@ closure(); // আউটপুট: "I am from the outer function"
 Closures are particularly useful in JavaScript for several reasons:
 1. **Data Encapsulation:** Closures allow you to create private variables in JavaScript. This is because the variables inside a closure are not accessible from outside the closure, which helps in keeping some data private and protected.
    
-2. **Function Factories:** Closures enable the creation of functions that are customized with different variables, allowing for the generation of unique function behavior dynamically.
+// 2. **Function Factories:** Closures enable the creation of functions that are customized with different variables, allowing for the generation of unique function behavior dynamically.
 
-3. **Callbacks and Event Handlers:** Closures are often used in asynchronous programming (like callbacks, event handlers, and promises) to remember the environment in which the function was created.
+// 3. **Callbacks and Event Handlers:** Closures are often used in asynchronous programming (like callbacks, event handlers, and promises) to remember the environment in which the function was created.
 
-4. **Maintain State:** Closures are often used to maintain state between function calls. You can create a function that maintains a count or value across multiple invocations.
+// 4. **Maintain State:** Closures are often used to maintain state between function calls. You can create a function that maintains a count or value across multiple invocations.
 
 // **In Bengali:**
 // ক্লোজারগুলি JavaScript-এ বেশ কয়েকটি কারণে বিশেষভাবে উপকারী:
