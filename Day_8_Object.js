@@ -4,10 +4,9 @@
    - **English:** An object is a collection of key-value pairs. It is one of the most used data structures in JavaScript. The keys are also known as properties, and the values can be any data type, including another object.
    - **Bangla:** একটি অবজেক্ট হল কিপরতি মানের সংগ্রহ। এটি জাভাস্ক্রিপ্টের সবচেয়ে ব্যবহৃত ডেটা কাঠামোগুলির মধ্যে একটি। কীগুলিকে প্রপার্টি বলা হয়, এবং মানগুলি যেকোনো ডেটা টাইপ হতে পারে, এমনকি অন্য একটি অবজেক্টও হতে পারে।
 
-   - **Use Case:** Objects are used when you need to represent complex data with multiple attributes. For example, representing a car with properties like `make`, `model`, `year`, and `color`.
+  //  - **Use Case:** Objects are used when you need to represent complex data with multiple attributes. For example, representing a car with properties like `make`, `model`, `year`, and `color`.
 
-   - **Code Example:**
-     ```javascript
+  //  Code Example:
      let car = {
          make: "Toyota",
          model: "Corolla",
@@ -15,9 +14,6 @@
          color: "blue"
      };
      console.log(car.make);  // Output: Toyota
-     ```
-
----
 
 // #### 2. **Object Declaration**
   //  - **English:** You can declare an object using curly braces (`{}`), and each key-value pair is separated by a colon, while each pair is separated by commas.
