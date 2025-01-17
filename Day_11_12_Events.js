@@ -12,12 +12,12 @@ An event is an action or occurrence that is detected by the program, usually tri
 
 #### **Types of Events**
 
-**In English:**
-1. **Mouse Events:**
-   - `click`: Triggered when a mouse button is clicked.
-   - `dblclick`: Triggered when the mouse button is clicked twice quickly.
-   - `mouseover` and `mouseout`: Triggered when the mouse pointer enters or leaves an element.
-   - `mousemove`: Triggered when the mouse moves over an element.
+// **In English:**
+// 1. **Mouse Events:**
+//    - `click`: Triggered when a mouse button is clicked.
+//    - `dblclick`: Triggered when the mouse button is clicked twice quickly.
+//    - `mouseover` and `mouseout`: Triggered when the mouse pointer enters or leaves an element.
+//    - `mousemove`: Triggered when the mouse moves over an element.
 
 // 2. **Keyboard Events:**
 //    - `keydown`: Triggered when a key is pressed down.
