@@ -27,8 +27,8 @@ function outerFunction() {
     return innerFunction; // Returning inner function
 }
 
-const closure = outerFunction(); // Returns the inner function
-closure(); // Output: "I am from the outer function"
+const closure1 = outerFunction(); // Returns the inner function
+closure1(); // Output: "I am from the outer function"
 
 // **In Bengali:**
 // ক্লোজারগুলি অভ্যন্তরীণ ফাংশনগুলিকে বাইরের ফাংশনের ভেরিয়েবলগুলির অ্যাক্সেস করতে দেয়, যদিও বাইরের ফাংশনটির কার্যক্রম শেষ হয়ে গেছে। এটি সম্ভব কারণ JavaScript-এ লেক্সিক্যাল স্কোপিং রয়েছে, যার মানে হল যে ভেরিয়েবলগুলির স্কোপ নির্ধারিত হয় তাদের ডিফাইনেশনের সময় ফাংশনগুলির অবস্থান দ্বারা।
