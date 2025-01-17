@@ -1,9 +1,9 @@
-### **Day 15: Closures**
+// ### **Day 15: Closures**
 
-#### **What is a Closure?**
+// #### **What is a Closure?**
 
-**In English:**
-A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope. In simpler terms, closures allow a function to "remember" the environment in which it was created, even after that environment has finished executing.
+// **In English:**
+// A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope. In simpler terms, closures allow a function to "remember" the environment in which it was created, even after that environment has finished executing.
 
 // In JavaScript, a closure is created every time a function is defined inside another function. The inner function has access to the outer function's variables, and when the outer function returns the inner function, the inner function still remembers and has access to those variables.
 // **In Bengali:**
