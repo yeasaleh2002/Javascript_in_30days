@@ -115,8 +115,8 @@ console.log(sum); // আউটপুট: 15
 ### **Why Use These Array Methods?**
 
 **In English:**
-1. **Immutability:** All three methods (`map`, `filter`, and `reduce`) return new arrays, ensuring the original array remains unmodified, which is an essential aspect of functional programming.
-2. **Cleaner Code:** These methods allow you to write clean, concise code without needing to manually loop through arrays, making it easier to read and maintain.
+// 1. **Immutability:** All three methods (`map`, `filter`, and `reduce`) return new arrays, ensuring the original array remains unmodified, which is an essential aspect of functional programming.
+// 2. **Cleaner Code:** These methods allow you to write clean, concise code without needing to manually loop through arrays, making it easier to read and maintain.
 // 3. **Functional Programming Paradigm:** They allow you to apply functional programming principles like immutability, higher-order functions, and pure functions, making your code more predictable and testable.
 // 4. **Performance:** These methods are optimized for performance and are often more efficient than using traditional loops when dealing with large datasets or complex transformations.
 
