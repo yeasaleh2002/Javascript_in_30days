@@ -70,18 +70,14 @@
 
 #### 5. **Deleting Object Properties**
    - **English:** You can remove a property from an object using the `delete` operator.
-   - **Bangla:** আপনি `delete` অপারেটর ব্যবহার করে একটি অবজেক্ট থেকে প্রপার্টি মুছে ফেলতে পারেন।
+  //  - **Bangla:** আপনি `delete` অপারেটর ব্যবহার করে একটি অবজেক্ট থেকে প্রপার্টি মুছে ফেলতে পারেন।
 
-   - **Use Case:** Useful when you want to clean up an object by removing unnecessary properties.
+  //  - **Use Case:** Useful when you want to clean up an object by removing unnecessary properties.
 
-   - **Code Example:**
-     ```javascript
+  //  Code Example:
      let person = { name: "Charlie", age: 28 };
      delete person.age;
      console.log(person);  // Output: { name: "Charlie" }
-     ```
-
----
 
 // #### 6. **Nested Objects**
   //  - **English:** Objects can contain other objects as values. This is known as a nested object.
