@@ -116,10 +116,10 @@ Event propagation refers to the process by which events are handled in the DOM (
 
 ---
 
-#### **Conclusion:**
+// #### **Conclusion:**
 
-**In English:**
-Events are the cornerstone of interactive programming. They allow programmers to make applications responsive to user input, making the experience dynamic. Understanding how to handle and propagate events is essential for creating intuitive, user-friendly applications that can react to user actions in real-time.
+// **In English:**
+// Events are the cornerstone of interactive programming. They allow programmers to make applications responsive to user input, making the experience dynamic. Understanding how to handle and propagate events is essential for creating intuitive, user-friendly applications that can react to user actions in real-time.
 
-**In Bengali:**
-ইভেন্টগুলি ইন্টারঅ্যাকটিভ প্রোগ্রামিংয়ের মূল স্তম্ভ। এগুলি প্রোগ্রামারদের ব্যবহারকারীর ইনপুটের প্রতি অ্যাপ্লিকেশনকে প্রতিক্রিয়া জানাতে সক্ষম করে, যা অভিজ্ঞতাটিকে গতিশীল করে তোলে। ইভেন্টগুলি কীভাবে হ্যান্ডলিং এবং প্রসারিত করতে হয় তা বুঝে নেওয়া গুরুত্বপূর্ণ, যাতে এমন অ্যাপ্লিকেশন তৈরি করা যায় যা ব্যবহারকারীর ক্রিয়াগুলির প্রতি রিয়েল-টাইমে প্রতিক্রিয়া জানাতে পারে এবং ব্যবহারকারী-বান্ধব হয়।
+// **In Bengali:**
+// ইভেন্টগুলি ইন্টারঅ্যাকটিভ প্রোগ্রামিংয়ের মূল স্তম্ভ। এগুলি প্রোগ্রামারদের ব্যবহারকারীর ইনপুটের প্রতি অ্যাপ্লিকেশনকে প্রতিক্রিয়া জানাতে সক্ষম করে, যা অভিজ্ঞতাটিকে গতিশীল করে তোলে। ইভেন্টগুলি কীভাবে হ্যান্ডলিং এবং প্রসারিত করতে হয় তা বুঝে নেওয়া গুরুত্বপূর্ণ, যাতে এমন অ্যাপ্লিকেশন তৈরি করা যায় যা ব্যবহারকারীর ক্রিয়াগুলির প্রতি রিয়েল-টাইমে প্রতিক্রিয়া জানাতে পারে এবং ব্যবহারকারী-বান্ধব হয়।
