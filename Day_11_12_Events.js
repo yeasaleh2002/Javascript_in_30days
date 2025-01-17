@@ -100,13 +100,13 @@ Event propagation refers to the process by which events are handled in the DOM (
 
 ---
 
-#### **Why Use Events?**
+// #### **Why Use Events?**
 
-**In English:**
-1. **User Interaction:** Events enable interaction between the user and the application, which is the foundation of any dynamic or interactive web page.
-2. **Asynchronous Behavior:** Events are often used to perform actions asynchronously (e.g., waiting for user input, waiting for an API response).
-3. **Real-time Updates:** Events are crucial for real-time applications, such as chat applications or live data feeds, where changes must be reflected immediately.
-4. **State Management:** Events can trigger state changes within the application, such as submitting a form or clicking a button to load new content.
+// **In English:**
+// 1. **User Interaction:** Events enable interaction between the user and the application, which is the foundation of any dynamic or interactive web page.
+// 2. **Asynchronous Behavior:** Events are often used to perform actions asynchronously (e.g., waiting for user input, waiting for an API response).
+// 3. **Real-time Updates:** Events are crucial for real-time applications, such as chat applications or live data feeds, where changes must be reflected immediately.
+// 4. **State Management:** Events can trigger state changes within the application, such as submitting a form or clicking a button to load new content.
 
 // **In Bengali:**
 // 1. **ব্যবহারকারীর যোগাযোগ:** ইভেন্টগুলি ব্যবহারকারী এবং অ্যাপ্লিকেশনটির মধ্যে যোগাযোগ সক্ষম করে, যা যেকোনো গতিশীল বা ইন্টারঅ্যাকটিভ ওয়েব পৃষ্ঠার ভিত্তি।
