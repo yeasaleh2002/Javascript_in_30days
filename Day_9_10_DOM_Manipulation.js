@@ -103,15 +103,11 @@
 
    - **Use Case:** Useful when you want to change the styles or visibility of an element based on user actions, such as toggling a class for a dropdown menu or adding a class to highlight a clicked item.
 
-   - **Code Example:**
-     ```javascript
+  //  Code Example:
      let box = document.getElementById("box");
      box.classList.add("highlight");
      box.classList.remove("hidden");
      box.classList.toggle("active");
-     ```
-
----
 
 // #### 8. **Traversing the DOM**
   //  - **English:** You can traverse the DOM using methods like `parentNode`, `childNodes`, `nextElementSibling`, and `previousElementSibling` to navigate through elements in the DOM tree.
