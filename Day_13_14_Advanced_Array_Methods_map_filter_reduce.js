@@ -19,16 +19,16 @@ let newArray = array.map(function(element) {
 });
 
 // **Example:
-let numbers = [1, 2, 3, 4, 5];
-let doubledNumbers = numbers.map(number => number * 2);
-console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]
+let numbers1 = [1, 2, 3, 4, 5];
+let doubledNumbers1 = numbers1.map(number => number * 2);
+console.log(doubledNumbers1); // Output: [2, 4, 6, 8, 10]
 
 // **In Bengali:**
 // `map()` মেথডটি একটি নতুন অ্যারে তৈরি করে যা কল করার সময় প্রতিটি উপাদানের উপর একটি প্রদত্ত ফাংশন কল করার ফলাফলে পূর্ণ হয়। এটি মূল অ্যারেটিকে পরিবর্তন করে না বরং রূপান্তরিত মানগুলির সাথে একটি নতুন অ্যারে প্রদান করে।
 
 // **উদাহরণ:
-let numbers = [1, 2, 3, 4, 5];
-let doubledNumbers = numbers.map(number => number * 2);
+let numbers2 = [1, 2, 3, 4, 5];
+let doubledNumbers = numbers2.map(number => number * 2);
 console.log(doubledNumbers); // আউটপুট: [2, 4, 6, 8, 10]
 
 // **Use Case:**
@@ -40,21 +40,21 @@ console.log(doubledNumbers); // আউটপুট: [2, 4, 6, 8, 10]
 // The `filter()` method creates a new array with all elements that pass the test implemented by the provided function. It does not change the original array but returns a new array with the elements that satisfy the given condition.
 
 // **Syntax:**
-let newArray = array.filter(function(element) {
+let newArray2 = array.filter(function(element) {
     return element > 5; // Example condition
 });
 
 // **Example:
-let numbers = [1, 2, 3, 4, 5, 6];
-let greaterThanThree = numbers.filter(number => number > 3);
-console.log(greaterThanThree); // Output: [4, 5, 6]
+let numbers3 = [1, 2, 3, 4, 5, 6];
+let greaterThanThree1 = numbers3.filter(number => number > 3);
+console.log(greaterThanThree1); // Output: [4, 5, 6]
 
 // **In Bengali:**
 // `filter()` মেথডটি একটি নতুন অ্যারে তৈরি করে যা সমস্ত উপাদান ধারণ করে যেগুলি প্রদত্ত ফাংশন দ্বারা পরীক্ষিত শর্ত পূর্ণ করে। এটি মূল অ্যারেটিকে পরিবর্তন করে না, বরং এমন উপাদানগুলির সাথে একটি নতুন অ্যারে প্রদান করে যা নির্ধারিত শর্ত পূর্ণ করে।
 
 // **উদাহরণ:**
-let numbers = [1, 2, 3, 4, 5, 6];
-let greaterThanThree = numbers.filter(number => number > 3);
+let numbers4 = [1, 2, 3, 4, 5, 6];
+let greaterThanThree = numbers4.filter(number => number > 3);
 console.log(greaterThanThree); // আউটপুট: [4, 5, 6]
 
 // **Use Case:**
@@ -73,15 +73,15 @@ let result = array.reduce(function(accumulator, currentValue) {
 
 // **Example:**
 let numbers = [1, 2, 3, 4, 5];
-let sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
-console.log(sum); // Output: 15
+let sum1 = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+console.log(sum1); // Output: 15
 
-**In Bengali:**
+// **In Bengali:**
 // `reduce()` মেথডটি একটি রিডিউসার ফাংশন (যা ব্যবহারকারী প্রদান করে) অ্যারেটির প্রতিটি উপাদানে চালায়, যার ফলে একটি একক আউটপুট মান পাওয়া যায়। এটি প্রায়ই যোগফল, গুণফল হিসাব করতে বা কাস্টম লজিকের ভিত্তিতে অ্যারে রিডিউস করতে ব্যবহৃত হয়।
 
 // **উদাহরণ:**
-let numbers = [1, 2, 3, 4, 5];
-let sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+let numbers5 = [1, 2, 3, 4, 5];
+let sum = numbers5.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 console.log(sum); // আউটপুট: 15
 
 // **Use Case:**
