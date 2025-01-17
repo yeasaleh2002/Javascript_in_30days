@@ -1,10 +1,10 @@
-### Day 9-10: DOM Manipulation in JavaScript
+// ### Day 9-10: DOM Manipulation in JavaScript
 
-#### 1. **What is DOM?**
-   - **English:** The DOM (Document Object Model) is an interface that represents the structure of an HTML document. It allows programming languages like JavaScript to access and modify the document's content, structure, and styles dynamically.
-   - **Bangla:** ডিওএম (ডকুমেন্ট অবজেক্ট মডেল) একটি ইন্টারফেস যা একটি HTML ডকুমেন্টের স্ট্রাকচার উপস্থাপন করে। এটি জাভাস্ক্রিপ্টের মতো প্রোগ্রামিং ভাষাগুলিকে ডকুমেন্টের কন্টেন্ট, স্ট্রাকচার, এবং স্টাইল ডাইনামিকভাবে অ্যাক্সেস এবং পরিবর্তন করার সুযোগ দেয়।
+// #### 1. **What is DOM?**
+  //  - **English:** The DOM (Document Object Model) is an interface that represents the structure of an HTML document. It allows programming languages like JavaScript to access and modify the document's content, structure, and styles dynamically.
+  //  - **Bangla:** ডিওএম (ডকুমেন্ট অবজেক্ট মডেল) একটি ইন্টারফেস যা একটি HTML ডকুমেন্টের স্ট্রাকচার উপস্থাপন করে। এটি জাভাস্ক্রিপ্টের মতো প্রোগ্রামিং ভাষাগুলিকে ডকুমেন্টের কন্টেন্ট, স্ট্রাকচার, এবং স্টাইল ডাইনামিকভাবে অ্যাক্সেস এবং পরিবর্তন করার সুযোগ দেয়।
 
-   - **Use Case:** You use the DOM when you need to interact with a web page dynamically. For example, changing the content of an HTML element or modifying the style of a page without reloading it.
+  //  - **Use Case:** You use the DOM when you need to interact with a web page dynamically. For example, changing the content of an HTML element or modifying the style of a page without reloading it.
 
   //  Code Example:
      document.getElementById("demo").innerHTML = "Hello, World!";
