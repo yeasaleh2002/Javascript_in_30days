@@ -48,15 +48,12 @@
      let person = { name: "Alice", age: 25 };
      console.log(person.name);  // Output: Alice
      console.log(person["age"]);  // Output: 25
-     ```
+     
+// #### 4. **Adding or Updating Object Properties**
+  //  - **English:** You can add new properties to an object or update the existing ones by assigning a new value to a key.
+  //  - **Bangla:** আপনি একটি অবজেক্টে নতুন প্রপার্টি যোগ করতে পারেন বা বিদ্যমান প্রপার্টির মান আপডেট করতে পারেন একটি নতুন মান নির্ধারণ করে।
 
----
-
-#### 4. **Adding or Updating Object Properties**
-   - **English:** You can add new properties to an object or update the existing ones by assigning a new value to a key.
-   - **Bangla:** আপনি একটি অবজেক্টে নতুন প্রপার্টি যোগ করতে পারেন বা বিদ্যমান প্রপার্টির মান আপডেট করতে পারেন একটি নতুন মান নির্ধারণ করে।
-
-   - **Use Case:** You can use this when you want to modify an object by adding new attributes or changing existing ones.
+  //  - **Use Case:** You can use this when you want to modify an object by adding new attributes or changing existing ones.
 
   //  Code Example:
      let user = { name: "Bob", age: 30 };
