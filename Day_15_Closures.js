@@ -5,24 +5,18 @@
 **In English:**
 A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope. In simpler terms, closures allow a function to "remember" the environment in which it was created, even after that environment has finished executing.
 
-In JavaScript, a closure is created every time a function is defined inside another function. The inner function has access to the outer function's variables, and when the outer function returns the inner function, the inner function still remembers and has access to those variables.
+// In JavaScript, a closure is created every time a function is defined inside another function. The inner function has access to the outer function's variables, and when the outer function returns the inner function, the inner function still remembers and has access to those variables.
+// **In Bengali:**
+// একটি ক্লোজার হলো এমন একটি ফাংশন যা তার লেক্সিক্যাল স্কোপে অ্যাক্সেস রাখতে পারে, যদিও ফাংশনটি সেই স্কোপের বাইরে এক্সিকিউট করা হয়। সহজভাবে বলতে গেলে, ক্লোজারগুলি একটি ফাংশনকে "মনে রাখার" সুযোগ দেয় সেই পরিবেশটি যেখানে এটি তৈরি হয়েছিল, যদিও সেই পরিবেশটি কার্যক্রম শেষ হওয়ার পরে।
+// JavaScript-এ একটি ক্লোজার তখন তৈরি হয় যখন একটি ফাংশন অন্য একটি ফাংশনের ভিতরে ডিফাইন করা হয়। অভ্যন্তরীণ ফাংশনটি বাইরের ফাংশনের ভেরিয়েবলগুলির অ্যাক্সেস পায়, এবং যখন বাইরের ফাংশন অভ্যন্তরীণ ফাংশনটি রিটার্ন করে, তখন অভ্যন্তরীণ ফাংশনটি এখনও সেই ভেরিয়েবলগুলির সাথে অ্যাক্সেস এবং স্মরণ রাখতে পারে।
 
-**In Bengali:**
-একটি ক্লোজার হলো এমন একটি ফাংশন যা তার লেক্সিক্যাল স্কোপে অ্যাক্সেস রাখতে পারে, যদিও ফাংশনটি সেই স্কোপের বাইরে এক্সিকিউট করা হয়। সহজভাবে বলতে গেলে, ক্লোজারগুলি একটি ফাংশনকে "মনে রাখার" সুযোগ দেয় সেই পরিবেশটি যেখানে এটি তৈরি হয়েছিল, যদিও সেই পরিবেশটি কার্যক্রম শেষ হওয়ার পরে।
 
-JavaScript-এ একটি ক্লোজার তখন তৈরি হয় যখন একটি ফাংশন অন্য একটি ফাংশনের ভিতরে ডিফাইন করা হয়। অভ্যন্তরীণ ফাংশনটি বাইরের ফাংশনের ভেরিয়েবলগুলির অ্যাক্সেস পায়, এবং যখন বাইরের ফাংশন অভ্যন্তরীণ ফাংশনটি রিটার্ন করে, তখন অভ্যন্তরীণ ফাংশনটি এখনও সেই ভেরিয়েবলগুলির সাথে অ্যাক্সেস এবং স্মরণ রাখতে পারে।
+// ### **How Closures Work**
+// **In English:**
+// Closures allow inner functions to access variables of the outer function, even after the outer function has completed execution. This is possible because JavaScript has lexical scoping, meaning that the scope of variables is determined by the location of the functions when they are defined.
+// When an inner function is returned from an outer function, it retains access to the outer function's variables, even after the outer function has finished running.
 
----
-
-### **How Closures Work**
-
-**In English:**
-Closures allow inner functions to access variables of the outer function, even after the outer function has completed execution. This is possible because JavaScript has lexical scoping, meaning that the scope of variables is determined by the location of the functions when they are defined.
-
-When an inner function is returned from an outer function, it retains access to the outer function's variables, even after the outer function has finished running.
-
-**Syntax:**
-```javascript
+// **Syntax:**
 function outerFunction() {
     let outerVar = "I am from the outer function";
     
