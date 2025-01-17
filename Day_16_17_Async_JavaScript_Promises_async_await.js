@@ -113,10 +113,10 @@ fetchData();
 
 3. **Error Handling**: Promises and `async/await` allow for better error handling with `.catch()` for Promises and `try/catch` blocks for async functions.
 
-4. **Concurrency**: Both Promises and async/await enable concurrent operations, which improves performance when you need to execute multiple asynchronous tasks in parallel.
+// 4. **Concurrency**: Both Promises and async/await enable concurrent operations, which improves performance when you need to execute multiple asynchronous tasks in parallel.
 
-**In Bengali:**
-1. **কলব্যাক হেল এড়ানো**: প্রমিস এবং async/await অ্যাসিঙ্ক্রোনাস অপারেশনগুলি হ্যান্ডল করার জন্য একটি আরো পাঠযোগ্য এবং গঠনমূলক উপায় প্রদান করে, "কলব্যাক হেল" নামে পরিচিত গভীরভাবে নেস্টেড কলব্যাক ফাংশনগুলিকে এড়িয়ে।
+// **In Bengali:**
+// 1. **কলব্যাক হেল এড়ানো**: প্রমিস এবং async/await অ্যাসিঙ্ক্রোনাস অপারেশনগুলি হ্যান্ডল করার জন্য একটি আরো পাঠযোগ্য এবং গঠনমূলক উপায় প্রদান করে, "কলব্যাক হেল" নামে পরিচিত গভীরভাবে নেস্টেড কলব্যাক ফাংশনগুলিকে এড়িয়ে।
 
 // 2. **ক্লিনার কোড**: `async/await` ব্যবহার করলে অ্যাসিঙ্ক্রোনাস কোড আরও ক্লিন এবং রক্ষণাবেক্ষণযোগ্য হয়, কারণ কোডের ফ্লো আরও লিনিয়ার হয়, যা সিঙ্ক্রোনাস কোডের মতো।
 
