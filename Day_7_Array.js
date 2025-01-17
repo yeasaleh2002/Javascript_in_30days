@@ -84,14 +84,11 @@
      });
      console.log(doubled);  // Output: [2, 4, 6, 8, 10]
 
-#### 7. **Multi-dimensional Arrays**
-   - **English:** An array can contain other arrays, which makes it a multi-dimensional array.
-   - **Bangla:** একটি অ্যারে অন্য অ্যারে ধারণ করতে পারে, যার ফলে এটি একটি বহু-মাত্রিক অ্যারে হয়ে ওঠে।
-
-   - **Use Case:** Use multi-dimensional arrays when you need to represent matrices or a table-like structure (e.g., a seating arrangement).
-
-   - **Code Example:**
-     ```javascript
+// #### 7. **Multi-dimensional Arrays**
+  //  - **English:** An array can contain other arrays, which makes it a multi-dimensional array.
+  //  - **Bangla:** একটি অ্যারে অন্য অ্যারে ধারণ করতে পারে, যার ফলে এটি একটি বহু-মাত্রিক অ্যারে হয়ে ওঠে।
+  //  - **Use Case:** Use multi-dimensional arrays when you need to represent matrices or a table-like structure (e.g., a seating arrangement).
+  //  Code Example:
      let matrix = [
          [1, 2, 3],
          [4, 5, 6],
@@ -99,9 +96,6 @@
      ];
 
      console.log(matrix[1][1]);  // Output: 5
-     ```
-
----
 
   /* 8. Array Destructuring
    English: Array destructuring allows you to unpack values from an array into separate variables.
