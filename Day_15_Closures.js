@@ -88,11 +88,10 @@ Closures are particularly useful in JavaScript for several reasons:
 
 #### **1. Private Variables**
 
-**In English:**
-Closures are commonly used to create private variables that cannot be accessed directly from outside the function. This is particularly useful when you want to protect sensitive data.
+// **In English:**
+// Closures are commonly used to create private variables that cannot be accessed directly from outside the function. This is particularly useful when you want to protect sensitive data.
 
-**Example:**
-```javascript
+// **Example:
 function counter() {
     let count = 0; // Private variable
     
@@ -115,7 +114,6 @@ const myCounter = counter();
 console.log(myCounter.increment()); // Output: 1
 console.log(myCounter.increment()); // Output: 2
 console.log(myCounter.getCount()); // Output: 2
-```
 
 // **In Bengali:**
 // ক্লোজারগুলি সাধারণত প্রাইভেট ভেরিয়েবল তৈরি করতে ব্যবহৃত হয় যা ফাংশনের বাইরে সরাসরি অ্যাক্সেসযোগ্য নয়। এটি বিশেষভাবে উপকারী যখন আপনি সংবেদনশীল ডেটা সুরক্ষিত রাখতে চান।
