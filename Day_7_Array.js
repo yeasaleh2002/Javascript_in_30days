@@ -65,29 +65,24 @@
      console.log(cars);  // Output: ["Toyota", "Honda"]
    
 
-#### 6. **Array Iteration**
-   - **English:** You can iterate over the elements of an array using loops like `for`, `forEach`, or `map`.
-   - **Bangla:** আপনি `for`, `forEach`, বা `map` এর মতো লুপ ব্যবহার করে একটি অ্যারের উপাদানগুলি পুনরাবৃত্তি করতে পারেন।
+// #### 6. **Array Iteration**
+  //  - **English:** You can iterate over the elements of an array using loops like `for`, `forEach`, or `map`.
+  //  - **Bangla:** আপনি `for`, `forEach`, বা `map` এর মতো লুপ ব্যবহার করে একটি অ্যারের উপাদানগুলি পুনরাবৃত্তি করতে পারেন।
 
-   - **Use Case:** Iterating over arrays is useful when you need to perform the same operation on each element, such as displaying all items in a list or calculating the sum of all numbers.
+  //  - **Use Case:** Iterating over arrays is useful when you need to perform the same operation on each element, such as displaying all items in a list or calculating the sum of all numbers.
 
-   - **Code Example (forEach):**
-     ```javascript
+  //  Code Example (forEach):
      let numbers = [1, 2, 3, 4, 5];
      numbers.forEach(function(number) {
          console.log(number * 2);  // Output: 2, 4, 6, 8, 10
      });
-     ```
 
-   - **Code Example (map):**
-     ```javascript
+  //  - **Code Example (map):**
+  
      let doubled = numbers.map(function(number) {
          return number * 2;
      });
      console.log(doubled);  // Output: [2, 4, 6, 8, 10]
-     ```
-
----
 
 #### 7. **Multi-dimensional Arrays**
    - **English:** An array can contain other arrays, which makes it a multi-dimensional array.
