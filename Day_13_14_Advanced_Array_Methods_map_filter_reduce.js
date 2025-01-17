@@ -44,10 +44,10 @@ You can use `map()` to perform operations on each element of an array and create
 
 ---
 
-### **2. `filter()` Method**
+// ### **2. `filter()` Method**
 
-**In English:**
-The `filter()` method creates a new array with all elements that pass the test implemented by the provided function. It does not change the original array but returns a new array with the elements that satisfy the given condition.
+// **In English:**
+// The `filter()` method creates a new array with all elements that pass the test implemented by the provided function. It does not change the original array but returns a new array with the elements that satisfy the given condition.
 
 // **Syntax:**
 let newArray = array.filter(function(element) {
