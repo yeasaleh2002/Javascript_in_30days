@@ -107,8 +107,8 @@ let sum = numbers.reduce((accumulator, currentValue) => accumulator + currentVal
 console.log(sum); // আউটপুট: 15
 ```
 
-**Use Case:**
-`reduce()` is used when you need to combine or accumulate array values into a single result. It is commonly used for calculating totals, averages, or even building complex objects from an array of data.
+// **Use Case:**
+// `reduce()` is used when you need to combine or accumulate array values into a single result. It is commonly used for calculating totals, averages, or even building complex objects from an array of data.
 
 
 // ### **Why Use These Array Methods?**
