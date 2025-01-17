@@ -49,19 +49,15 @@ You can use `map()` to perform operations on each element of an array and create
 **In English:**
 The `filter()` method creates a new array with all elements that pass the test implemented by the provided function. It does not change the original array but returns a new array with the elements that satisfy the given condition.
 
-**Syntax:**
-```javascript
+// **Syntax:**
 let newArray = array.filter(function(element) {
     return element > 5; // Example condition
 });
-```
 
-**Example:**
-```javascript
+// **Example:
 let numbers = [1, 2, 3, 4, 5, 6];
 let greaterThanThree = numbers.filter(number => number > 3);
 console.log(greaterThanThree); // Output: [4, 5, 6]
-```
 
 // **In Bengali:**
 // `filter()` মেথডটি একটি নতুন অ্যারে তৈরি করে যা সমস্ত উপাদান ধারণ করে যেগুলি প্রদত্ত ফাংশন দ্বারা পরীক্ষিত শর্ত পূর্ণ করে। এটি মূল অ্যারেটিকে পরিবর্তন করে না, বরং এমন উপাদানগুলির সাথে একটি নতুন অ্যারে প্রদান করে যা নির্ধারিত শর্ত পূর্ণ করে।
