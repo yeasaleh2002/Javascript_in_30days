@@ -1,13 +1,13 @@
 // Day 7: Arrays in JavaScript
 
-#### 1. **What is an Array?**
-   - **English:** An array is a special type of object in JavaScript that allows you to store multiple values in a single variable. It can hold values of different data types such as numbers, strings, objects, or even other arrays.
-   - **Bangla:** একটি অ্যারে হল জাভাস্ক্রিপ্টের একটি বিশেষ ধরণের অবজেক্ট যা আপনাকে একটি ভ্যারিয়েবলে একাধিক মান সংরক্ষণ করতে দেয়। এটি বিভিন্ন ডেটা টাইপের মান ধারণ করতে পারে যেমন সংখ্যা, স্ট্রিং, অবজেক্ট বা এমনকি অন্য অ্যারে।
+// #### 1. **What is an Array?**
+  //  - **English:** An array is a special type of object in JavaScript that allows you to store multiple values in a single variable. It can hold values of different data types such as numbers, strings, objects, or even other arrays.
+  //  - **Bangla:** একটি অ্যারে হল জাভাস্ক্রিপ্টের একটি বিশেষ ধরণের অবজেক্ট যা আপনাকে একটি ভ্যারিয়েবলে একাধিক মান সংরক্ষণ করতে দেয়। এটি বিভিন্ন ডেটা টাইপের মান ধারণ করতে পারে যেমন সংখ্যা, স্ট্রিং, অবজেক্ট বা এমনকি অন্য অ্যারে।
 
-   - **Use Case:** Arrays are used when you need to store a collection of items that can be accessed by index. For example, storing a list of student names or a set of products.
+  //  - **Use Case:** Arrays are used when you need to store a collection of items that can be accessed by index. For example, storing a list of student names or a set of products.
 
-   - **Code Example:**
-     ```javascript
+  //  - **Code Example:**
+    //  ```javascript
      let fruits = ["apple", "banana", "orange"];
      console.log(fruits[1]);  // Output: banana
      ```
