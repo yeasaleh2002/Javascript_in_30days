@@ -22,20 +22,15 @@
      let numbers = [1, 2, 3, 4, 5];
      console.log(numbers);  // Output: [1, 2, 3, 4, 5]
 
-#### 3. **Accessing Array Elements**
-   - **English:** You can access individual elements of an array using an index. Arrays are zero-indexed, meaning the first element is at index 0.
-   - **Bangla:** আপনি একটি অ্যারের পৃথক উপাদান অ্যাক্সেস করতে পারেন একটি ইনডেক্স ব্যবহার করে। অ্যারে গুলি জিরো-ইনডেক্সড হয়, এর মানে হল প্রথম উপাদানটি ইনডেক্স 0 এ থাকে।
+// #### 3. **Accessing Array Elements**
+  //  - **English:** You can access individual elements of an array using an index. Arrays are zero-indexed, meaning the first element is at index 0.
+  //  - **Bangla:** আপনি একটি অ্যারের পৃথক উপাদান অ্যাক্সেস করতে পারেন একটি ইনডেক্স ব্যবহার করে। অ্যারে গুলি জিরো-ইনডেক্সড হয়, এর মানে হল প্রথম উপাদানটি ইনডেক্স 0 এ থাকে।
+  //  - **Use Case:** Use indexing when you need to access specific elements in an array, such as retrieving the first or last element.
+  //  - **Code Example:
 
-   - **Use Case:** Use indexing when you need to access specific elements in an array, such as retrieving the first or last element.
-
-   - **Code Example:**
-     ```javascript
      let colors = ["red", "green", "blue"];
      console.log(colors[0]);  // Output: red
      console.log(colors[2]);  // Output: blue
-     ```
-
----
 
 #### 4. **Array Length**
    - **English:** The `length` property returns the number of elements in an array.
