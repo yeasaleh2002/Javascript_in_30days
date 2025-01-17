@@ -34,10 +34,10 @@ An event is an action or occurrence that is detected by the program, usually tri
    - `scroll`: Triggered when the page is scrolled.
    - `load`: Triggered when the page or element finishes loading.
 
-**In Bengali:**
-1. **মাউস ইভেন্ট:**
-   - `click`: যখন মাউস বোতাম ক্লিক করা হয়, তখন এটি কার্যকর হয়।
-   - `dblclick`: যখন মাউস বোতাম দ্রুত দুটি বার ক্লিক করা হয়, তখন এটি কার্যকর হয়।
+// **In Bengali:**
+// 1. **মাউস ইভেন্ট:**
+//    - `click`: যখন মাউস বোতাম ক্লিক করা হয়, তখন এটি কার্যকর হয়।
+//    - `dblclick`: যখন মাউস বোতাম দ্রুত দুটি বার ক্লিক করা হয়, তখন এটি কার্যকর হয়।
    // - `mouseover` এবং `mouseout`: যখন মাউস পয়েন্টার একটি উপাদানকে প্রবেশ বা ত্যাগ করে, তখন এটি কার্যকর হয়।
    // - `mousemove`: যখন মাউস একটি উপাদানের উপর সরানো হয়, তখন এটি কার্যকর হয়।
 
