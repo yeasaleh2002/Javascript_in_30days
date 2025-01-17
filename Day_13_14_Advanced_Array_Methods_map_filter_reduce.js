@@ -1,14 +1,12 @@
-### **Day 13-14: Advanced Array Methods (map, filter, reduce)**
+// ### **Day 13-14: Advanced Array Methods (map, filter, reduce)**
 
-#### **What are Array Methods?**
+// #### **What are Array Methods?**
 
-**In English:**
-Array methods in JavaScript are functions that are built into the JavaScript array prototype. These methods allow you to manipulate arrays easily, such as iterating over elements, filtering elements, transforming data, and reducing data to a single value.
+// **In English:**
+// Array methods in JavaScript are functions that are built into the JavaScript array prototype. These methods allow you to manipulate arrays easily, such as iterating over elements, filtering elements, transforming data, and reducing data to a single value.
 
-**In Bengali:**
-JavaScript-এ অ্যারে মেথডগুলি হল এমন ফাংশনগুলি যা JavaScript অ্যারে প্রোটোটাইপে অন্তর্ভুক্ত থাকে। এই মেথডগুলি আপনাকে অ্যারে ম্যানিপুলেট করতে সহায়তা করে, যেমন উপাদানগুলির উপর ইটারেট করা, উপাদানগুলি ফিল্টার করা, ডেটা রূপান্তর করা, এবং ডেটাকে একটি একক মানে রিডিউস করা।
-
----
+// **In Bengali:**
+// JavaScript-এ অ্যারে মেথডগুলি হল এমন ফাংশনগুলি যা JavaScript অ্যারে প্রোটোটাইপে অন্তর্ভুক্ত থাকে। এই মেথডগুলি আপনাকে অ্যারে ম্যানিপুলেট করতে সহায়তা করে, যেমন উপাদানগুলির উপর ইটারেট করা, উপাদানগুলি ফিল্টার করা, ডেটা রূপান্তর করা, এবং ডেটাকে একটি একক মানে রিডিউস করা।
 
 // ### **1. `map()` Method**
 
