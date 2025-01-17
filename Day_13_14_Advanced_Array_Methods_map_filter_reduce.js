@@ -128,10 +128,10 @@ console.log(sum); // আউটপুট: 15
 
 ---
 
-### **Conclusion**
+// ### **Conclusion**
 
-**In English:**
-Mastering the `map`, `filter`, and `reduce` methods is crucial for any JavaScript developer. These methods allow for cleaner, more readable code and promote the use of functional programming principles. They simplify array manipulation and reduce the need for explicit loops, making your code more efficient and maintainable.
+// **In English:**
+// Mastering the `map`, `filter`, and `reduce` methods is crucial for any JavaScript developer. These methods allow for cleaner, more readable code and promote the use of functional programming principles. They simplify array manipulation and reduce the need for explicit loops, making your code more efficient and maintainable.
 
-**In Bengali:**
-`map`, `filter`, এবং `reduce` মেথডগুলি আয়ত্ত করা যেকোনো JavaScript ডেভেলপারের জন্য অত্যন্ত গুরুত্বপূর্ণ। এই মেথডগুলি পরিষ্কার, আরও পড়তে উপযোগী কোড লেখার সুযোগ দেয় এবং ফাংশনাল প্রোগ্রামিং-এর নীতিগুলির ব্যবহার প্রচার করে। এগুলি অ্যারে ম্যানিপুলেশন সহজ করে এবং স্পষ্ট লুপ ব্যবহারের প্রয়োজন কমিয়ে দেয়, যার ফলে আপনার কোড আরও দক্ষ এবং রক্ষণাবেক্ষণযোগ্য হয়।
+// **In Bengali:**
+// `map`, `filter`, এবং `reduce` মেথডগুলি আয়ত্ত করা যেকোনো JavaScript ডেভেলপারের জন্য অত্যন্ত গুরুত্বপূর্ণ। এই মেথডগুলি পরিষ্কার, আরও পড়তে উপযোগী কোড লেখার সুযোগ দেয় এবং ফাংশনাল প্রোগ্রামিং-এর নীতিগুলির ব্যবহার প্রচার করে। এগুলি অ্যারে ম্যানিপুলেশন সহজ করে এবং স্পষ্ট লুপ ব্যবহারের প্রয়োজন কমিয়ে দেয়, যার ফলে আপনার কোড আরও দক্ষ এবং রক্ষণাবেক্ষণযোগ্য হয়।
