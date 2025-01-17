@@ -86,12 +86,12 @@ document.getElementById("myButton").addEventListener("click", function() {
 
 ---
 
-#### **Event Propagation:**
+// #### **Event Propagation:**
 
-**In English:**
-Event propagation refers to the process by which events are handled in the DOM (Document Object Model). There are two main types of event propagation:
-1. **Bubbling:** The event starts from the target element and propagates up through its ancestors (parents, grandparents, etc.).
-2. **Capturing (Trickling):** The event starts from the root element and propagates down to the target element.
+// **In English:**
+// Event propagation refers to the process by which events are handled in the DOM (Document Object Model). There are two main types of event propagation:
+// 1. **Bubbling:** The event starts from the target element and propagates up through its ancestors (parents, grandparents, etc.).
+// 2. **Capturing (Trickling):** The event starts from the root element and propagates down to the target element.
 
 // **In Bengali:**
 // ইভেন্ট প্রোপাগেশন (বিস্তার) হল সেই প্রক্রিয়া যার মাধ্যমে DOM (ডকুমেন্ট অবজেক্ট মডেল)-এ ইভেন্টগুলি পরিচালিত হয়। ইভেন্ট প্রোপাগেশনের দুটি প্রধান ধরনের প্রক্রিয়া রয়েছে:
