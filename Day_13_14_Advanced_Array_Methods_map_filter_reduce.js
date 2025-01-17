@@ -29,20 +29,16 @@ let doubledNumbers = numbers.map(number => number * 2);
 console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]
 ```
 
-**In Bengali:**
-`map()` মেথডটি একটি নতুন অ্যারে তৈরি করে যা কল করার সময় প্রতিটি উপাদানের উপর একটি প্রদত্ত ফাংশন কল করার ফলাফলে পূর্ণ হয়। এটি মূল অ্যারেটিকে পরিবর্তন করে না বরং রূপান্তরিত মানগুলির সাথে একটি নতুন অ্যারে প্রদান করে।
+// **In Bengali:**
+// `map()` মেথডটি একটি নতুন অ্যারে তৈরি করে যা কল করার সময় প্রতিটি উপাদানের উপর একটি প্রদত্ত ফাংশন কল করার ফলাফলে পূর্ণ হয়। এটি মূল অ্যারেটিকে পরিবর্তন করে না বরং রূপান্তরিত মানগুলির সাথে একটি নতুন অ্যারে প্রদান করে।
 
-**উদাহরণ:**
-```javascript
+// **উদাহরণ:
 let numbers = [1, 2, 3, 4, 5];
 let doubledNumbers = numbers.map(number => number * 2);
 console.log(doubledNumbers); // আউটপুট: [2, 4, 6, 8, 10]
-```
 
-**Use Case:**
-You can use `map()` to perform operations on each element of an array and create a new array based on the results without modifying the original array. For example, transforming data from one format to another.
-
----
+// **Use Case:**
+// You can use `map()` to perform operations on each element of an array and create a new array based on the results without modifying the original array. For example, transforming data from one format to another.
 
 // ### **2. `filter()` Method**
 
