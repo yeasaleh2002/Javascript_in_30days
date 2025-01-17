@@ -6,12 +6,8 @@
 
    - **Use Case:** You use the DOM when you need to interact with a web page dynamically. For example, changing the content of an HTML element or modifying the style of a page without reloading it.
 
-   - **Code Example:**
-     ```javascript
+  //  Code Example:
      document.getElementById("demo").innerHTML = "Hello, World!";
-     ```
-
----
 
 // #### 2. **Selecting Elements**
   //  - **English:** To manipulate the DOM, you first need to select the elements you want to modify. You can use various methods to select elements like `getElementById()`, `getElementsByClassName()`, `querySelector()`, etc.
