@@ -49,9 +49,9 @@
 
 #### 4. **Changing Styles**
    - **English:** You can manipulate the styles of elements using the `style` property. This allows you to dynamically change the appearance of elements, such as changing colors, fonts, or layout.
-   - **Bangla:** আপনি `style` প্রপার্টি ব্যবহার করে এলিমেন্টগুলির স্টাইল ম্যানিপুলেট করতে পারেন। এটি আপনাকে এলিমেন্টগুলির চেহারা ডাইনামিকভাবে পরিবর্তন করতে দেয়, যেমন রং, ফন্ট, বা লেআউট পরিবর্তন করা।
+  //  - **Bangla:** আপনি `style` প্রপার্টি ব্যবহার করে এলিমেন্টগুলির স্টাইল ম্যানিপুলেট করতে পারেন। এটি আপনাকে এলিমেন্টগুলির চেহারা ডাইনামিকভাবে পরিবর্তন করতে দেয়, যেমন রং, ফন্ট, বা লেআউট পরিবর্তন করা।
 
-   - **Use Case:** Useful when you need to change the layout, theme, or design of a page based on user interactions, such as changing a button color on hover or showing hidden elements.
+  //  - **Use Case:** Useful when you need to change the layout, theme, or design of a page based on user interactions, such as changing a button color on hover or showing hidden elements.
 
   //  Code Example:
      document.getElementById("header").style.color = "red";
