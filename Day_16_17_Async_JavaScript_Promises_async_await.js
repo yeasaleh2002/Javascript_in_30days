@@ -182,10 +182,10 @@ getData();
 
 ---
 
-### **Conclusion**
+// ### **Conclusion**
 
-**In English:**
-Mastering **Promises** and **async/await** will significantly improve the way you handle asynchronous code in JavaScript. They simplify the process of managing multiple asynchronous operations and provide a cleaner, more readable way to write code that handles promises. Once you get comfortable with these patterns, you'll be able to write more efficient, maintainable, and error-free JavaScript code.
+// **In English:**
+// Mastering **Promises** and **async/await** will significantly improve the way you handle asynchronous code in JavaScript. They simplify the process of managing multiple asynchronous operations and provide a cleaner, more readable way to write code that handles promises. Once you get comfortable with these patterns, you'll be able to write more efficient, maintainable, and error-free JavaScript code.
 
-**In Bengali:**
-**Promises** এবং **async/await** সম্পর্কে দক্ষ হওয়া JavaScript-এ অ্যাসিঙ্ক্রোনাস কোড হ্যান্ডল করার উপায়ে ব্যাপক উন্নতি  করবে। এগুলি একাধিক অ্যাসিঙ্ক্রোনাস অপারেশন পরিচালনার প্রক্রিয়া সহজ করে এবং প্রমিস হ্যান্ডলিং কোড লেখার জন্য একটি ক্লিন এবং পাঠযোগ্য উপায় প্রদান করে। একবার আপনি এই প্যাটার্নগুলির সাথে পরিচিত হলে, আপনি আরও দক্ষ, রক্ষণাবেক্ষণযোগ্য এবং ত্রুটির মুক্ত JavaScript কোড লিখতে সক্ষম হবেন।
+// **In Bengali:**
+// **Promises** এবং **async/await** সম্পর্কে দক্ষ হওয়া JavaScript-এ অ্যাসিঙ্ক্রোনাস কোড হ্যান্ডল করার উপায়ে ব্যাপক উন্নতি  করবে। এগুলি একাধিক অ্যাসিঙ্ক্রোনাস অপারেশন পরিচালনার প্রক্রিয়া সহজ করে এবং প্রমিস হ্যান্ডলিং কোড লেখার জন্য একটি ক্লিন এবং পাঠযোগ্য উপায় প্রদান করে। একবার আপনি এই প্যাটার্নগুলির সাথে পরিচিত হলে, আপনি আরও দক্ষ, রক্ষণাবেক্ষণযোগ্য এবং ত্রুটির মুক্ত JavaScript কোড লিখতে সক্ষম হবেন।
