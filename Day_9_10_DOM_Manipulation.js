@@ -67,8 +67,7 @@
 
    - **Use Case:** This is useful when dynamically adding new content to a page, such as adding a new item to a list or removing an element when a user interacts with it.
 
-   - **Code Example:**
-     ```javascript
+  //  Code Example:
      // Create a new element and add it to the page
      let newDiv = document.createElement("div");
      newDiv.textContent = "New Element!";
@@ -77,9 +76,6 @@
      // Remove an element
      let elementToRemove = document.getElementById("removeMe");
      elementToRemove.remove();
-     ```
-
----
 
 // #### 6. **Event Handling**
   //  - **English:** JavaScript allows you to handle events (like clicks, hover, or keyboard input) on DOM elements using methods like `addEventListener()`.
