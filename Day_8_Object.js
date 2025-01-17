@@ -19,23 +19,20 @@
 
 ---
 
-#### 2. **Object Declaration**
-   - **English:** You can declare an object using curly braces (`{}`), and each key-value pair is separated by a colon, while each pair is separated by commas.
-   - **Bangla:** আপনি একটি অবজেক্ট ডিক্লেয়ার করতে পারেন curly ব্রেসেস (`{}`) ব্যবহার করে, এবং প্রতিটি কিপরতি মান একটি কলন দ্বারা আলাদা করা হয়, এবং প্রতিটি জোড়া কমা দ্বারা আলাদা করা হয়।
+// #### 2. **Object Declaration**
+  //  - **English:** You can declare an object using curly braces (`{}`), and each key-value pair is separated by a colon, while each pair is separated by commas.
+  //  - **Bangla:** আপনি একটি অবজেক্ট ডিক্লেয়ার করতে পারেন curly ব্রেসেস (`{}`) ব্যবহার করে, এবং প্রতিটি কিপরতি মান একটি কলন দ্বারা আলাদা করা হয়, এবং প্রতিটি জোড়া কমা দ্বারা আলাদা করা হয়।
+  //  - **Use Case:** Objects are ideal for when you need to represent a set of related properties.
 
-   - **Use Case:** Objects are ideal for when you need to represent a set of related properties.
+  //  Code Example:
 
-   - **Code Example:**
-     ```javascript
      let student = {
          name: "John",
          age: 22,
          department: "Computer Science"
      };
      console.log(student.name);  // Output: John
-     ```
-
----
+   
 
 // #### 3. **Accessing Object Properties**
   //  - **English:** You can access the properties of an object using either dot notation or bracket notation.
