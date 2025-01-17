@@ -1,8 +1,8 @@
-### Day 8: Objects in JavaScript
+// ### Day 8: Objects in JavaScript
 
-#### 1. **What is an Object?**
-   - **English:** An object is a collection of key-value pairs. It is one of the most used data structures in JavaScript. The keys are also known as properties, and the values can be any data type, including another object.
-   - **Bangla:** একটি অবজেক্ট হল কিপরতি মানের সংগ্রহ। এটি জাভাস্ক্রিপ্টের সবচেয়ে ব্যবহৃত ডেটা কাঠামোগুলির মধ্যে একটি। কীগুলিকে প্রপার্টি বলা হয়, এবং মানগুলি যেকোনো ডেটা টাইপ হতে পারে, এমনকি অন্য একটি অবজেক্টও হতে পারে।
+// #### 1. **What is an Object?**
+  //  - **English:** An object is a collection of key-value pairs. It is one of the most used data structures in JavaScript. The keys are also known as properties, and the values can be any data type, including another object.
+  //  - **Bangla:** একটি অবজেক্ট হল কিপরতি মানের সংগ্রহ। এটি জাভাস্ক্রিপ্টের সবচেয়ে ব্যবহৃত ডেটা কাঠামোগুলির মধ্যে একটি। কীগুলিকে প্রপার্টি বলা হয়, এবং মানগুলি যেকোনো ডেটা টাইপ হতে পারে, এমনকি অন্য একটি অবজেক্টও হতে পারে।
 
   //  - **Use Case:** Objects are used when you need to represent complex data with multiple attributes. For example, representing a car with properties like `make`, `model`, `year`, and `color`.
 
