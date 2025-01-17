@@ -97,11 +97,11 @@
 
 ---
 
-#### 7. **Manipulating Classes**
-   - **English:** You can manipulate the classes of elements using methods like `classList.add()`, `classList.remove()`, and `classList.toggle()`. This helps with adding, removing, or toggling styles dynamically.
-   - **Bangla:** আপনি `classList.add()`, `classList.remove()`, এবং `classList.toggle()` এর মতো পদ্ধতি ব্যবহার করে এলিমেন্টগুলির ক্লাস ম্যানিপুলেট করতে পারেন। এটি স্টাইলগুলি ডাইনামিকভাবে যোগ, মুছে ফেলা বা টগল করতে সহায়ক।
+// #### 7. **Manipulating Classes**
+  //  - **English:** You can manipulate the classes of elements using methods like `classList.add()`, `classList.remove()`, and `classList.toggle()`. This helps with adding, removing, or toggling styles dynamically.
+  //  - **Bangla:** আপনি `classList.add()`, `classList.remove()`, এবং `classList.toggle()` এর মতো পদ্ধতি ব্যবহার করে এলিমেন্টগুলির ক্লাস ম্যানিপুলেট করতে পারেন। এটি স্টাইলগুলি ডাইনামিকভাবে যোগ, মুছে ফেলা বা টগল করতে সহায়ক।
 
-   - **Use Case:** Useful when you want to change the styles or visibility of an element based on user actions, such as toggling a class for a dropdown menu or adding a class to highlight a clicked item.
+  //  - **Use Case:** Useful when you want to change the styles or visibility of an element based on user actions, such as toggling a class for a dropdown menu or adding a class to highlight a clicked item.
 
   //  Code Example:
      let box = document.getElementById("box");
