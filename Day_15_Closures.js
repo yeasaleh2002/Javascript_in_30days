@@ -144,9 +144,6 @@ const myCounter = counter();
 console.log(myCounter.increment()); // আউটপুট: 1
 console.log(myCounter.increment()); // আউটপুট: 2
 console.log(myCounter.getCount()); // আউটপুট: 2
-```
-
----
 
 // #### **2. Function Factories**
 // **In English:**
