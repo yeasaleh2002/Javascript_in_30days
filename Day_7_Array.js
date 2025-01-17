@@ -49,24 +49,21 @@
     //  - `.shift()` - Removes the first item from an array.
     //  - `.unshift()` - Adds an item to the beginning of an array.
   //  - **Bangla:** জাভাস্ক্রিপ্ট অনেক বিল্ট-ইন অ্যারে মেথড সরবরাহ করে যা অ্যারের সাথে কাজ করতে বা তা পরিবর্তন করতে সহায়ক। কিছু সাধারণ মেথড হল:
-     - `.push()` - একটি আইটেম অ্যারের শেষে যোগ করে।
-     - `.pop()` - একটি আইটেম অ্যারের শেষ থেকে সরিয়ে দেয়।
-     - `.shift()` - একটি আইটেম অ্যারের প্রথম থেকে সরিয়ে দেয়।
-     - `.unshift()` - একটি আইটেম অ্যারের শুরুর দিকে যোগ করে।
+    //  - `.push()` - একটি আইটেম অ্যারের শেষে যোগ করে।
+    //  - `.pop()` - একটি আইটেম অ্যারের শেষ থেকে সরিয়ে দেয়।
+    //  - `.shift()` - একটি আইটেম অ্যারের প্রথম থেকে সরিয়ে দেয়।
+    //  - `.unshift()` - একটি আইটেম অ্যারের শুরুর দিকে যোগ করে।
 
-   - **Use Case:** These methods are essential for adding, removing, and modifying elements in an array dynamically.
+  //  - **Use Case:** These methods are essential for adding, removing, and modifying elements in an array dynamically.
 
-   - **Code Example:**
-     ```javascript
+    // Code Example:
      let cars = ["Toyota", "Honda"];
      cars.push("BMW");  // Adds "BMW" to the end
      console.log(cars);  // Output: ["Toyota", "Honda", "BMW"]
 
      cars.pop();  // Removes "BMW"
      console.log(cars);  // Output: ["Toyota", "Honda"]
-     ```
-
----
+   
 
 #### 6. **Array Iteration**
    - **English:** You can iterate over the elements of an array using loops like `for`, `forEach`, or `map`.
