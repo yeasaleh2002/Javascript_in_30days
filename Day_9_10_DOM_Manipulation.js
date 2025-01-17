@@ -119,11 +119,7 @@
 
    - **Use Case:** Traversing the DOM is useful when you want to navigate between elements, for example, getting the parent of an element or the next sibling in a list.
 
-   - **Code Example:**
-     ```javascript
+  //  Code Example:
      let listItem = document.getElementById("item");
      let parent = listItem.parentNode;
      let nextSibling = listItem.nextElementSibling;
-     ```
-
----
