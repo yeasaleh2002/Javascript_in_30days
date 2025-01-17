@@ -110,11 +110,10 @@ console.log(sum); // আউটপুট: 15
 **Use Case:**
 `reduce()` is used when you need to combine or accumulate array values into a single result. It is commonly used for calculating totals, averages, or even building complex objects from an array of data.
 
----
 
-### **Why Use These Array Methods?**
+// ### **Why Use These Array Methods?**
 
-**In English:**
+// **In English:**
 // 1. **Immutability:** All three methods (`map`, `filter`, and `reduce`) return new arrays, ensuring the original array remains unmodified, which is an essential aspect of functional programming.
 // 2. **Cleaner Code:** These methods allow you to write clean, concise code without needing to manually loop through arrays, making it easier to read and maintain.
 // 3. **Functional Programming Paradigm:** They allow you to apply functional programming principles like immutability, higher-order functions, and pure functions, making your code more predictable and testable.
