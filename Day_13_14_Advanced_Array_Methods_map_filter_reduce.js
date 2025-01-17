@@ -117,8 +117,8 @@ console.log(sum); // আউটপুট: 15
 **In English:**
 1. **Immutability:** All three methods (`map`, `filter`, and `reduce`) return new arrays, ensuring the original array remains unmodified, which is an essential aspect of functional programming.
 2. **Cleaner Code:** These methods allow you to write clean, concise code without needing to manually loop through arrays, making it easier to read and maintain.
-3. **Functional Programming Paradigm:** They allow you to apply functional programming principles like immutability, higher-order functions, and pure functions, making your code more predictable and testable.
-4. **Performance:** These methods are optimized for performance and are often more efficient than using traditional loops when dealing with large datasets or complex transformations.
+// 3. **Functional Programming Paradigm:** They allow you to apply functional programming principles like immutability, higher-order functions, and pure functions, making your code more predictable and testable.
+// 4. **Performance:** These methods are optimized for performance and are often more efficient than using traditional loops when dealing with large datasets or complex transformations.
 
 // **In Bengali:**
 // 1. **ইমিউটেবিলিটি (অপরিবর্তনীয়তা):** এই তিনটি মেথড (`map`, `filter`, এবং `reduce`) নতুন অ্যারে প্রদান করে, নিশ্চিত করে যে মূল অ্যারে অপরিবর্তিত থাকে, যা ফাংশনাল প্রোগ্রামিং-এর একটি গুরুত্বপূর্ণ দিক।
