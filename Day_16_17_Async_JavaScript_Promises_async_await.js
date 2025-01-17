@@ -109,9 +109,9 @@ fetchData();
 **In English:**
 1. **Avoiding Callback Hell**: Promises and async/await provide a more readable and structured way to handle asynchronous operations, avoiding the deeply nested callback functions known as "callback hell."
 
-2. **Cleaner Code**: With `async/await`, asynchronous code looks cleaner and is easier to maintain because the flow of the code is more linear, similar to synchronous code.
+// 2. **Cleaner Code**: With `async/await`, asynchronous code looks cleaner and is easier to maintain because the flow of the code is more linear, similar to synchronous code.
 
-3. **Error Handling**: Promises and `async/await` allow for better error handling with `.catch()` for Promises and `try/catch` blocks for async functions.
+// 3. **Error Handling**: Promises and `async/await` allow for better error handling with `.catch()` for Promises and `try/catch` blocks for async functions.
 
 // 4. **Concurrency**: Both Promises and async/await enable concurrent operations, which improves performance when you need to execute multiple asynchronous tasks in parallel.
 
