@@ -63,9 +63,9 @@
 
 #### 5. **Adding and Removing Elements**
    - **English:** You can add new elements to the DOM using methods like `createElement()` and `appendChild()`, and you can remove elements using `removeChild()` or `remove()`.
-   - **Bangla:** আপনি `createElement()` এবং `appendChild()` এর মতো পদ্ধতি ব্যবহার করে নতুন এলিমেন্ট ডকুমেন্টে যোগ করতে পারেন, এবং `removeChild()` বা `remove()` ব্যবহার করে এলিমেন্ট মুছে ফেলতে পারেন।
+  //  - **Bangla:** আপনি `createElement()` এবং `appendChild()` এর মতো পদ্ধতি ব্যবহার করে নতুন এলিমেন্ট ডকুমেন্টে যোগ করতে পারেন, এবং `removeChild()` বা `remove()` ব্যবহার করে এলিমেন্ট মুছে ফেলতে পারেন।
 
-   - **Use Case:** This is useful when dynamically adding new content to a page, such as adding a new item to a list or removing an element when a user interacts with it.
+  //  - **Use Case:** This is useful when dynamically adding new content to a page, such as adding a new item to a list or removing an element when a user interacts with it.
 
   //  Code Example:
      // Create a new element and add it to the page
