@@ -100,14 +100,12 @@ async function fetchData() {
 }
 
 fetchData();
-```
 
----
 
-### **Why Use Promises and Async/Await**
+// ### **Why Use Promises and Async/Await**
 
-**In English:**
-1. **Avoiding Callback Hell**: Promises and async/await provide a more readable and structured way to handle asynchronous operations, avoiding the deeply nested callback functions known as "callback hell."
+// **In English:**
+// 1. **Avoiding Callback Hell**: Promises and async/await provide a more readable and structured way to handle asynchronous operations, avoiding the deeply nested callback functions known as "callback hell."
 
 // 2. **Cleaner Code**: With `async/await`, asynchronous code looks cleaner and is easier to maintain because the flow of the code is more linear, similar to synchronous code.
 
