@@ -53,16 +53,12 @@
 
    - **Use Case:** Useful when you need to change the layout, theme, or design of a page based on user interactions, such as changing a button color on hover or showing hidden elements.
 
-   - **Code Example:**
-     ```javascript
+  //  Code Example:
      document.getElementById("header").style.color = "red";
      document.getElementById("box").style.width = "300px";
-     ```
 
----
-
-#### 5. **Adding and Removing Elements**
-   - **English:** You can add new elements to the DOM using methods like `createElement()` and `appendChild()`, and you can remove elements using `removeChild()` or `remove()`.
+// #### 5. **Adding and Removing Elements**
+  //  - **English:** You can add new elements to the DOM using methods like `createElement()` and `appendChild()`, and you can remove elements using `removeChild()` or `remove()`.
   //  - **Bangla:** আপনি `createElement()` এবং `appendChild()` এর মতো পদ্ধতি ব্যবহার করে নতুন এলিমেন্ট ডকুমেন্টে যোগ করতে পারেন, এবং `removeChild()` বা `remove()` ব্যবহার করে এলিমেন্ট মুছে ফেলতে পারেন।
 
   //  - **Use Case:** This is useful when dynamically adding new content to a page, such as adding a new item to a list or removing an element when a user interacts with it.
