@@ -89,8 +89,7 @@
 
    - **Use Case:** Nested objects are used when you need to represent hierarchical or more complex data structures.
 
-   - **Code Example:**
-     ```javascript
+  //  Code Example:
      let company = {
          name: "TechCorp",
          address: {
@@ -99,9 +98,6 @@
          }
      };
      console.log(company.address.city);  // Output: New York
-     ```
-
----
 
 // #### 7. **Object Methods**
   //  - **English:** You can define methods inside an object. A method is a function that is a property of an object.
