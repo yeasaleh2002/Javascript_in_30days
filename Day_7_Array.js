@@ -1,4 +1,4 @@
-### Day 7: Arrays in JavaScript
+// Day 7: Arrays in JavaScript
 
 #### 1. **What is an Array?**
    - **English:** An array is a special type of object in JavaScript that allows you to store multiple values in a single variable. It can hold values of different data types such as numbers, strings, objects, or even other arrays.
