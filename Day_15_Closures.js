@@ -188,10 +188,10 @@ console.log(triple(5)); // আউটপুট: 15
 
 ---
 
-### **Conclusion**
+// ### **Conclusion**
 
-**In English:**
-Closures are one of the most powerful features of JavaScript. They allow functions to remember their lexical environment and access variables from that environment even after the function has finished executing. Closures are fundamental for data encapsulation, maintaining state, and creating dynamic behaviors in your code. Understanding closures will greatly improve your ability to write efficient, modular, and maintainable JavaScript code.
+// **In English:**
+// Closures are one of the most powerful features of JavaScript. They allow functions to remember their lexical environment and access variables from that environment even after the function has finished executing. Closures are fundamental for data encapsulation, maintaining state, and creating dynamic behaviors in your code. Understanding closures will greatly improve your ability to write efficient, modular, and maintainable JavaScript code.
 
-**In Bengali:**
-ক্লোজারগুলি JavaScript-এর সবচেয়ে শক্তিশালী বৈশিষ্ট্যগুলির মধ্যে একটি। এগুলি ফাংশনগুলিকে তাদের লেক্সিক্যাল পরিবেশ মনে রাখতে এবং সেই পরিবেশ থেকে ভেরিয়েবলগুলিতে অ্যাক্সেস করতে দেয়, যদিও ফাংশনটি কার্যক্রম শেষ হয়েছে। ক্লোজারগুলি ডেটা এনক্যাপসুলেশন, স্টেট বজায় রাখা এবং আপনার কোডে ডাইনামিক আচরণ তৈরি করার জন্য মৌলিক। ক্লোজারগুলি বোঝা আপনার কোড লেখার দক্ষতা, মডুলারিটি এবং রক্ষণাবেক্ষণযোগ্যতা উন্নত করবে।
+// **In Bengali:**
+// ক্লোজারগুলি JavaScript-এর সবচেয়ে শক্তিশালী বৈশিষ্ট্যগুলির মধ্যে একটি। এগুলি ফাংশনগুলিকে তাদের লেক্সিক্যাল পরিবেশ মনে রাখতে এবং সেই পরিবেশ থেকে ভেরিয়েবলগুলিতে অ্যাক্সেস করতে দেয়, যদিও ফাংশনটি কার্যক্রম শেষ হয়েছে। ক্লোজারগুলি ডেটা এনক্যাপসুলেশন, স্টেট বজায় রাখা এবং আপনার কোডে ডাইনামিক আচরণ তৈরি করার জন্য মৌলিক। ক্লোজারগুলি বোঝা আপনার কোড লেখার দক্ষতা, মডুলারিটি এবং রক্ষণাবেক্ষণযোগ্যতা উন্নত করবে।
