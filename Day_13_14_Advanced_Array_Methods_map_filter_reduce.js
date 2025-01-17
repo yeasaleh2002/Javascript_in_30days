@@ -73,12 +73,10 @@ let greaterThanThree = numbers.filter(number => number > 3);
 console.log(greaterThanThree); // আউটপুট: [4, 5, 6]
 ```
 
-**Use Case:**
-You can use `filter()` to extract specific elements from an array based on a given condition. For example, filtering out even or odd numbers, or removing objects that do not match a specific criterion.
+// **Use Case:**
+// You can use `filter()` to extract specific elements from an array based on a given condition. For example, filtering out even or odd numbers, or removing objects that do not match a specific criterion.
 
----
-
-### **3. `reduce()` Method**
+// ### **3. `reduce()` Method**
 
 // **In English:**
 // The `reduce()` method executes a reducer function (provided by the user) on each element in the array, resulting in a single output value. It is often used for calculating sums, products, or reducing an array to a single value based on custom logic.
