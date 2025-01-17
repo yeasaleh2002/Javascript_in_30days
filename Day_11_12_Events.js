@@ -1,6 +1,6 @@
-### **Day 11-12: Events in Programming**
+// ### **Day 11-12: Events in Programming**
 
-#### **What is an Event?**
+// #### **What is an Event?**
 
 // **In English:**
 // An event is an action or occurrence that is detected by the program, usually triggered by user interaction or system processes. Common events include mouse clicks, keyboard presses, form submissions, or any other interaction between the user and the system. Events are essential for interactive applications and dynamic web pages, enabling a responsive user experience.
