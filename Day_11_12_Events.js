@@ -2,10 +2,10 @@
 
 #### **What is an Event?**
 
-**In English:**
-An event is an action or occurrence that is detected by the program, usually triggered by user interaction or system processes. Common events include mouse clicks, keyboard presses, form submissions, or any other interaction between the user and the system. Events are essential for interactive applications and dynamic web pages, enabling a responsive user experience.
+// **In English:**
+// An event is an action or occurrence that is detected by the program, usually triggered by user interaction or system processes. Common events include mouse clicks, keyboard presses, form submissions, or any other interaction between the user and the system. Events are essential for interactive applications and dynamic web pages, enabling a responsive user experience.
 
-**In Bengali:**
+// **In Bengali:**
 // একটি ইভেন্ট হল একটি ক্রিয়া বা ঘটনা যা প্রোগ্রাম দ্বারা সনাক্ত করা হয়, সাধারণত ব্যবহারকারীর যোগাযোগ বা সিস্টেম প্রক্রিয়া দ্বারা প্রবর্তিত হয়। সাধারণ ইভেন্টগুলির মধ্যে মাউস ক্লিক, কিবোর্ড চাপ, ফর্ম জমা দেওয়া, বা ব্যবহারকারী এবং সিস্টেমের মধ্যে অন্য কোনো যোগাযোগ অন্তর্ভুক্ত থাকে। ইভেন্টগুলি ইন্টারঅ্যাকটিভ অ্যাপ্লিকেশন এবং গতিশীল ওয়েব পৃষ্ঠাগুলির জন্য অপরিহার্য, যা একটি প্রতিক্রিয়া-যোগ্য ব্যবহারকারীর অভিজ্ঞতা সক্ষম করে।
 
 
