@@ -68,9 +68,8 @@ Event handling is the process of responding to user actions or other occurrences
 document.getElementById("myButton").addEventListener("click", function() {
     alert("Button clicked!");
 });
-```
 
-In the above example, when the button with the ID `myButton` is clicked, an alert box is displayed with the message "Button clicked!".
+// In the above example, when the button with the ID `myButton` is clicked, an alert box is displayed with the message "Button clicked!".
 
 // **In Bengali:**
 // ইভেন্ট হ্যান্ডলিং হল ব্যবহারকারীর ক্রিয়া বা অন্যান্য ঘটনা প্রতিক্রিয়া জানানো, যখন একটি ইভেন্ট ট্রিগার হয় তখন নির্দিষ্ট কোড চালানো। JavaScript-এ, ইভেন্ট হ্যান্ডলিং এলিমেন্টগুলিতে ইভেন্ট লিসেনার যুক্ত করে অর্জন করা যেতে পারে।
