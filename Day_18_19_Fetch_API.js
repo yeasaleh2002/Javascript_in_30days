@@ -97,11 +97,10 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
     .then(response => response.json())
     .then(data => console.log(data))
     .catch(error => console.log('Error:', error));
-```
 
-- **method**: Specifies the HTTP method (POST, GET, PUT, DELETE, etc.)
-- **headers**: Contains information about the request, such as content type.
-- **body**: The data that you are sending to the server, which must be stringified when sending JSON.
+// - **method**: Specifies the HTTP method (POST, GET, PUT, DELETE, etc.)
+// - **headers**: Contains information about the request, such as content type.
+// - **body**: The data that you are sending to the server, which must be stringified when sending JSON.
 
 // **In Bengali:**
 // একটি **POST** রিকোয়েস্ট সার্ভারে ডেটা পাঠাতে ব্যবহৃত হয়। আপনি Fetch API ব্যবহার করে ফর্ম ডেটা, JSON অবজেক্ট, বা অন্যান্য ধরণের ডেটা সার্ভারে পাঠাতে পারেন।
