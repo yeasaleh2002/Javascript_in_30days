@@ -168,12 +168,12 @@ employee1.work(); // Employee-এ সংজ্ঞায়িত
 
 ---
 
-### **Why Use Prototypes and Inheritance?**
+// ### **Why Use Prototypes and Inheritance?**
 
-**In English:**
-1. **Code Reusability**: Prototypes and inheritance allow objects to share common properties and methods, reducing code duplication and promoting reusability.
-2. **Efficient Memory Use**: Methods defined on a prototype are shared by all instances, which saves memory as you don't need to define the same method multiple times.
-3. **Flexible Object Structure**: Prototypes allow for dynamic and flexible changes to an object’s behavior or structure, which can be useful for extending functionality.
+// **In English:**
+// 1. **Code Reusability**: Prototypes and inheritance allow objects to share common properties and methods, reducing code duplication and promoting reusability.
+// 2. **Efficient Memory Use**: Methods defined on a prototype are shared by all instances, which saves memory as you don't need to define the same method multiple times.
+// 3. **Flexible Object Structure**: Prototypes allow for dynamic and flexible changes to an object’s behavior or structure, which can be useful for extending functionality.
 
 // **In Bengali:**
 // 1. **কোড পুনরাবৃত্তি রোধ**: প্রোটোটাইপ এবং ইনহেরিটেন্স অবজেক্টগুলোকে সাধারণ প্রপার্টি এবং মেথড শেয়ার করতে দেয়, যা কোড পুনরাবৃত্তি কমায় এবং পুনঃব্যবহারযোগ্যতা বৃদ্ধি করে।
