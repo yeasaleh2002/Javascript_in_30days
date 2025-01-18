@@ -1,9 +1,9 @@
-### **Day 18-19: Fetch API**
+// ### **Day 18-19: Fetch API**
 
-#### **What is Fetch API?**
+// #### **What is Fetch API?**
 
-**In English:**
-The **Fetch API** provides a modern and more powerful way to make HTTP requests in JavaScript. It is built into modern browsers and allows you to make network requests to retrieve data, send data, and interact with other web services. The Fetch API is promise-based, meaning it supports asynchronous programming using Promises, making it easier to work with asynchronous data.
+// **In English:**
+// The **Fetch API** provides a modern and more powerful way to make HTTP requests in JavaScript. It is built into modern browsers and allows you to make network requests to retrieve data, send data, and interact with other web services. The Fetch API is promise-based, meaning it supports asynchronous programming using Promises, making it easier to work with asynchronous data.
 
 // Unlike older methods like `XMLHttpRequest`, the Fetch API is more flexible, supports promises, and has a cleaner syntax for making requests.
 
