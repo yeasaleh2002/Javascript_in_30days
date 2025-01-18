@@ -78,12 +78,12 @@ person1.greet(); // আউটপুট: হ্যালো, আমার না�
 
 ---
 
-### **Inheritance in JavaScript**
+// ### **Inheritance in JavaScript**
 
-**In English:**
-Inheritance in JavaScript is a concept where one object can acquire properties and methods from another object. This is primarily achieved using prototypes. 
+// **In English:**
+// Inheritance in JavaScript is a concept where one object can acquire properties and methods from another object. This is primarily achieved using prototypes. 
 
-When an object inherits from another object, it gains access to the properties and methods of the parent object. JavaScript allows **prototypal inheritance**, where objects inherit directly from other objects, unlike class-based inheritance in languages like Java or C++.
+// When an object inherits from another object, it gains access to the properties and methods of the parent object. JavaScript allows **prototypal inheritance**, where objects inherit directly from other objects, unlike class-based inheritance in languages like Java or C++.
 
 // In ES6, **class syntax** was introduced, which is a syntactic sugar for prototypal inheritance, making it easier to create objects and handle inheritance.
 
