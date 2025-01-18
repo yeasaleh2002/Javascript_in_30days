@@ -25,13 +25,12 @@ fetch(url, options)
     .then(response => response.json()) // Parse the JSON response
     .then(data => console.log(data))   // Handle the data
     .catch(error => console.log("Error:", error)); // Handle any errors
-```
 
-- **url**: The URL to which the request is sent.
-- **options**: An optional object containing any custom settings like HTTP method, headers, body, etc.
+// - **url**: The URL to which the request is sent.
+// - **options**: An optional object containing any custom settings like HTTP method, headers, body, etc.
 
-**In Bengali:**
-Fetch API ব্যবহার করা হয় সার্ভারে HTTP রিকোয়েস্ট করার জন্য এবং তারপরে প্রতিক্রিয়া পাওয়ার জন্য। এটি সাধারণত API থেকে ডেটা ফেচ করার জন্য, সার্ভারে ডেটা পাঠানোর জন্য, বা REST API এর সাথে ইন্টারঅ্যাক্ট করার জন্য ব্যবহৃত হয়।
+// **In Bengali:**
+// Fetch API ব্যবহার করা হয় সার্ভারে HTTP রিকোয়েস্ট করার জন্য এবং তারপরে প্রতিক্রিয়া পাওয়ার জন্য। এটি সাধারণত API থেকে ডেটা ফেচ করার জন্য, সার্ভারে ডেটা পাঠানোর জন্য, বা REST API এর সাথে ইন্টারঅ্যাক্ট করার জন্য ব্যবহৃত হয়।
 
 // **সিনট্যাক্স:**
 fetch(url, options)
