@@ -175,17 +175,16 @@ employee1.work(); // Employee-এ সংজ্ঞায়িত
 2. **Efficient Memory Use**: Methods defined on a prototype are shared by all instances, which saves memory as you don't need to define the same method multiple times.
 3. **Flexible Object Structure**: Prototypes allow for dynamic and flexible changes to an object’s behavior or structure, which can be useful for extending functionality.
 
-**In Bengali:**
-1. **কোড পুনরাবৃত্তি রোধ**: প্রোটোটাইপ এবং ইনহেরিটেন্স অবজেক্টগুলোকে সাধারণ প্রপার্টি এবং মেথড শেয়ার করতে দেয়, যা কোড পুনরাবৃত্তি কমায় এবং পুনঃব্যবহারযোগ্যতা বৃদ্ধি করে।
-2. **কার্যকরী মেমরি ব্যবহার**: প্রোটোটাইপে সংজ্ঞায়িত মেথডগুলি সব ইনস্ট্যান্স দ্বারা শেয়ার করা হয়, যা মেমরি সাশ্রয়ী কারণ আপনাকে একই মেথড একাধিকবার সংজ্ঞায়িত করতে হয় না।
-3. **লচিক অবজেক্ট কাঠামো**: প্রোটোটাইপগুলি অবজেক্টের আচরণ বা কাঠামোকে গতিশীল এবং নমনীয় পরিবর্তন করতে দেয়, যা কার্যকারিতা সম্প্রসারণের জন্য উপকারী হতে পারে।
+// **In Bengali:**
+// 1. **কোড পুনরাবৃত্তি রোধ**: প্রোটোটাইপ এবং ইনহেরিটেন্স অবজেক্টগুলোকে সাধারণ প্রপার্টি এবং মেথড শেয়ার করতে দেয়, যা কোড পুনরাবৃত্তি কমায় এবং পুনঃব্যবহারযোগ্যতা বৃদ্ধি করে।
+// 2. **কার্যকরী মেমরি ব্যবহার**: প্রোটোটাইপে সংজ্ঞায়িত মেথডগুলি সব ইনস্ট্যান্স দ্বারা শেয়ার করা হয়, যা মেমরি সাশ্রয়ী কারণ আপনাকে একই মেথড একাধিকবার সংজ্ঞায়িত করতে হয় না।
+// 3. **লচিক অবজেক্ট কাঠামো**: প্রোটোটাইপগুলি অবজেক্টের আচরণ বা কাঠামোকে গতিশীল এবং নমনীয় পরিবর্তন করতে দেয়, যা কার্যকারিতা সম্প্রসারণের জন্য উপকারী হতে পারে।
 
----
 
-### **Conclusion**
+// ### **Conclusion**
 
-**In English:**
-Prototypes and inheritance in JavaScript are essential concepts that allow objects to inherit behavior from other objects, enhancing code reusability and flexibility. Understanding prototypes enables better memory management, while inheritance provides an elegant way to structure complex applications.
+// **In English:**
+// Prototypes and inheritance in JavaScript are essential concepts that allow objects to inherit behavior from other objects, enhancing code reusability and flexibility. Understanding prototypes enables better memory management, while inheritance provides an elegant way to structure complex applications.
 
-**In Bengali:**
-JavaScript-এ প্রোটোটাইপ এবং ইনহেরিটেন্স হলো গুরুত্বপূর্ণ ধারণা, যা অবজেক্টগুলোকে অন্যান্য অবজেক্ট থেকে আচরণ ইনহেরিট (উত্তরাধিকার) করতে দেয়, কোড পুনরাবৃত্তি এবং নমনীয়তা বৃদ্ধি করে। প্রোটোটাইপ বোঝা ভাল মেমরি ব্যবস্থাপনা নিশ্চিত করতে সাহায্য করে, এবং ইনহেরিটেন্স জটিল অ্যাপ্লিকেশন কাঠামো তৈরি করার জন্য একটি সুশৃঙ্খল উপায় প্রদান করে।
+// **In Bengali:**
+// JavaScript-এ প্রোটোটাইপ এবং ইনহেরিটেন্স হলো গুরুত্বপূর্ণ ধারণা, যা অবজেক্টগুলোকে অন্যান্য অবজেক্ট থেকে আচরণ ইনহেরিট (উত্তরাধিকার) করতে দেয়, কোড পুনরাবৃত্তি এবং নমনীয়তা বৃদ্ধি করে। প্রোটোটাইপ বোঝা ভাল মেমরি ব্যবস্থাপনা নিশ্চিত করতে সাহায্য করে, এবং ইনহেরিটেন্স জটিল অ্যাপ্লিকেশন কাঠামো তৈরি করার জন্য একটি সুশৃঙ্খল উপায় প্রদান করে।
