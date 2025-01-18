@@ -17,23 +17,21 @@ JavaScript অবজেক্টগুলি প্রোটোটাইপ ব�
 ### **Prototype Chain**
 
 **In English:**
-The **prototype chain** is the series of objects that are linked together through their prototypes. The chain starts with an object and continues through its prototype (if it has one) until it reaches `null`, which signifies the end of the chain.
+// The **prototype chain** is the series of objects that are linked together through their prototypes. The chain starts with an object and continues through its prototype (if it has one) until it reaches `null`, which signifies the end of the chain.
 
-For example, if you create an object with a constructor function, the object will inherit properties from the constructor’s prototype. If the prototype doesn’t have the property you're looking for, it will continue to search through the prototype chain.
+// For example, if you create an object with a constructor function, the object will inherit properties from the constructor’s prototype. If the prototype doesn’t have the property you're looking for, it will continue to search through the prototype chain.
 
-**In Bengali:**
-**প্রোটোটাইপ চেইন** হলো অবজেক্টগুলির একটি সিরিজ যা তাদের প্রোটোটাইপের মাধ্যমে একে অপরের সাথে সংযুক্ত থাকে। চেইনটি একটি অবজেক্ট দিয়ে শুরু হয় এবং তার প্রোটোটাইপের (যদি থাকে) মাধ্যমে চলতে থাকে যতক্ষণ না এটি `null` এ পৌঁছে, যা চেইনের শেষ নির্দেশ করে।
+// **In Bengali:**
+// **প্রোটোটাইপ চেইন** হলো অবজেক্টগুলির একটি সিরিজ যা তাদের প্রোটোটাইপের মাধ্যমে একে অপরের সাথে সংযুক্ত থাকে। চেইনটি একটি অবজেক্ট দিয়ে শুরু হয় এবং তার প্রোটোটাইপের (যদি থাকে) মাধ্যমে চলতে থাকে যতক্ষণ না এটি `null` এ পৌঁছে, যা চেইনের শেষ নির্দেশ করে।
 
-যেমন, যদি আপনি একটি কনস্ট্রাক্টর ফাংশন দিয়ে একটি অবজেক্ট তৈরি করেন, তবে সেই অবজেক্টটি কনস্ট্রাক্টরের প্রোটোটাইপ থেকে প্রপার্টি ইনহেরিট (উত্তরাধিকার) করবে। যদি প্রোটোটাইপে আপনি যে প্রপার্টিটি খুঁজছেন তা না থাকে, তবে এটি প্রোটোটাইপ চেইন ধরে খুঁজতে থাকবে।
+// যেমন, যদি আপনি একটি কনস্ট্রাক্টর ফাংশন দিয়ে একটি অবজেক্ট তৈরি করেন, তবে সেই অবজেক্টটি কনস্ট্রাক্টরের প্রোটোটাইপ থেকে প্রপার্টি ইনহেরিট (উত্তরাধিকার) করবে। যদি প্রোটোটাইপে আপনি যে প্রপার্টিটি খুঁজছেন তা না থাকে, তবে এটি প্রোটোটাইপ চেইন ধরে খুঁজতে থাকবে।
 
----
 
-### **Prototype Example**
+// ### **Prototype Example**
 
-**In English:**
-Let’s create an example to understand prototypes in JavaScript. In this example, we will create a constructor function called `Person`, and every `Person` object will inherit a method from the prototype.
+// **In English:**
+// Let’s create an example to understand prototypes in JavaScript. In this example, we will create a constructor function called `Person`, and every `Person` object will inherit a method from the prototype.
 
-```javascript
 function Person(name, age) {
   this.name = name;
   this.age = age;
@@ -49,7 +47,6 @@ const person1 = new Person("Alice", 25);
 
 // Call the greet method
 person1.greet(); // Output: Hello, my name is Alice and I am 25 years old.
-```
 
 // In this example, the `greet` method is added to the prototype of `Person`, meaning all instances of `Person` will inherit this method.
 
