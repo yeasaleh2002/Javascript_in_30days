@@ -22,23 +22,20 @@ JavaScript মডিউল আসার আগে, ডেভেলপারর�
   - **Named exports**: Allows you to export multiple elements from a module.
   - **Default export**: Allows you to export one default element from a module.
 
-- **Importing**: The `import` keyword is used to bring in functionality from another module into the current file.
+// - **Importing**: The `import` keyword is used to bring in functionality from another module into the current file.
 
-#### **Named Exports and Importing**
+// #### **Named Exports and Importing**
 
-Named exports allow you to export multiple functions, variables, or objects from a module.
+// Named exports allow you to export multiple functions, variables, or objects from a module.
 
-**Example of Named Export (JavaScript file 1 - `math.js`):**
+// **Example of Named Export (JavaScript file 1 - `math.js`):**
 
-```javascript
 // math.js
 export const add = (a, b) => a + b;
 export const subtract = (a, b) => a - b;
-```
 
-**Example of Importing Named Exports (JavaScript file 2 - `app.js`):**
+// **Example of Importing Named Exports (JavaScript file 2 - `app.js`):**
 
-```javascript
 // app.js
 import { add, subtract } from './math.js';
 
