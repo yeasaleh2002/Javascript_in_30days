@@ -168,17 +168,17 @@ fetch('https://jsonplaceholder.typicode.com/posts/1000')
 
 ### **Why Use Fetch API?**
 
-**In English:**
-1. **Simplicity**: The Fetch API offers a cleaner, simpler syntax than older methods like `XMLHttpRequest`, making it easier to work with and read.
-2. **Promise-based**: Since Fetch is promise-based, it integrates well with `async/await`, making asynchronous code more readable.
-3. **Better Error Handling**: Fetch makes it easy to handle errors and responses with a simple, structured API.
-4. **Support for Modern Features**: The Fetch API supports modern features like custom headers, sending JSON, handling timeouts, and more.
+// **In English:**
+// 1. **Simplicity**: The Fetch API offers a cleaner, simpler syntax than older methods like `XMLHttpRequest`, making it easier to work with and read.
+// 2. **Promise-based**: Since Fetch is promise-based, it integrates well with `async/await`, making asynchronous code more readable.
+// 3. **Better Error Handling**: Fetch makes it easy to handle errors and responses with a simple, structured API.
+// 4. **Support for Modern Features**: The Fetch API supports modern features like custom headers, sending JSON, handling timeouts, and more.
 
-**In Bengali:**
-1. **সহজতা**: Fetch API পুরানো পদ্ধতিগুলির তুলনায় একটি পরিষ্কার, সহজ সিনট্যাক্স প্রদান করে, যেমন `XMLHttpRequest`, যা এর সাথে কাজ করা এবং পড়া সহজ করে তোলে।
-2. **প্রমিস-ভিত্তিক**: Fetch যেহেতু প্রমিস-ভিত্তিক, এটি `async/await` এর সাথে ভালভাবে একীভূত হয়, যার ফলে অ্যাসিঙ্ক্রোনাস কোড আরও পাঠযোগ্য হয়।
-3. **ভাল ত্রুটি হ্যান্ডলিং**: Fetch সহজেই ত্রুটি এবং রেসপন্স হ্যান্ডল করার জন্য একটি সাদামাটা, গঠনমূলক API প্রদান করে।
-4. **আধুনিক বৈশিষ্ট্যগুলির সমর্থন**: Fetch API আধুনিক বৈশিষ্ট্যগুলি সমর্থন করে যেমন কাস্টম হেডার, JSON পাঠানো, টাইমআউট হ্যান্ডলিং, এবং আরও অনেক কিছু।
+// **In Bengali:**
+// 1. **সহজতা**: Fetch API পুরানো পদ্ধতিগুলির তুলনায় একটি পরিষ্কার, সহজ সিনট্যাক্স প্রদান করে, যেমন `XMLHttpRequest`, যা এর সাথে কাজ করা এবং পড়া সহজ করে তোলে।
+// 2. **প্রমিস-ভিত্তিক**: Fetch যেহেতু প্রমিস-ভিত্তিক, এটি `async/await` এর সাথে ভালভাবে একীভূত হয়, যার ফলে অ্যাসিঙ্ক্রোনাস কোড আরও পাঠযোগ্য হয়।
+// 3. **ভাল ত্রুটি হ্যান্ডলিং**: Fetch সহজেই ত্রুটি এবং রেসপন্স হ্যান্ডল করার জন্য একটি সাদামাটা, গঠনমূলক API প্রদান করে।
+// 4. **আধুনিক বৈশিষ্ট্যগুলির সমর্থন**: Fetch API আধুনিক বৈশিষ্ট্যগুলি সমর্থন করে যেমন কাস্টম হেডার, JSON পাঠানো, টাইমআউট হ্যান্ডলিং, এবং আরও অনেক কিছু।
 
 // ### **Conclusion**
 
