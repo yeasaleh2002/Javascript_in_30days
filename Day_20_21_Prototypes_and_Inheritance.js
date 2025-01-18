@@ -85,25 +85,22 @@ Inheritance in JavaScript is a concept where one object can acquire properties a
 
 When an object inherits from another object, it gains access to the properties and methods of the parent object. JavaScript allows **prototypal inheritance**, where objects inherit directly from other objects, unlike class-based inheritance in languages like Java or C++.
 
-In ES6, **class syntax** was introduced, which is a syntactic sugar for prototypal inheritance, making it easier to create objects and handle inheritance.
+// In ES6, **class syntax** was introduced, which is a syntactic sugar for prototypal inheritance, making it easier to create objects and handle inheritance.
 
-**In Bengali:**
-JavaScript-এ ইনহেরিটেন্স (উত্তরাধিকার) হলো একটি ধারণা যেখানে একটি অবজেক্ট অন্য একটি অবজেক্ট থেকে প্রপার্টি এবং মেথড ইনহেরিট (উত্তরাধিকার) করতে পারে। এটি প্রধানত প্রোটোটাইপ ব্যবহার করে অর্জিত হয়।
+// **In Bengali:**
+// JavaScript-এ ইনহেরিটেন্স (উত্তরাধিকার) হলো একটি ধারণা যেখানে একটি অবজেক্ট অন্য একটি অবজেক্ট থেকে প্রপার্টি এবং মেথড ইনহেরিট (উত্তরাধিকার) করতে পারে। এটি প্রধানত প্রোটোটাইপ ব্যবহার করে অর্জিত হয়।
 
-যখন একটি অবজেক্ট অন্য একটি অবজেক্ট থেকে ইনহেরিট করে, তখন এটি প্যারেন্ট অবজেক্টের প্রপার্টি এবং মেথডগুলিতে অ্যাক্সেস পায়। JavaScript **প্রোটোটাইপাল ইনহেরিটেন্স** সমর্থন করে, যেখানে অবজেক্টগুলি সরাসরি অন্য অবজেক্ট থেকে ইনহেরিট করে, যেমন Java বা C++-এর ক্লাস-ভিত্তিক ইনহেরিটেন্সের তুলনায়।
+// যখন একটি অবজেক্ট অন্য একটি অবজেক্ট থেকে ইনহেরিট করে, তখন এটি প্যারেন্ট অবজেক্টের প্রপার্টি এবং মেথডগুলিতে অ্যাক্সেস পায়। JavaScript **প্রোটোটাইপাল ইনহেরিটেন্স** সমর্থন করে, যেখানে অবজেক্টগুলি সরাসরি অন্য অবজেক্ট থেকে ইনহেরিট করে, যেমন Java বা C++-এর ক্লাস-ভিত্তিক ইনহেরিটেন্সের তুলনায়।
 
-ES6-এ **ক্লাস সিনট্যাক্স** পরিচিত হয়েছিল, যা প্রোটোটাইপাল ইনহেরিটেন্সের জন্য একটি সিনট্যাকটিক সুগার, যা অবজেক্ট তৈরি এবং ইনহেরিটেন্স হ্যান্ডলিং সহজ করে।
+// ES6-এ **ক্লাস সিনট্যাক্স** পরিচিত হয়েছিল, যা প্রোটোটাইপাল ইনহেরিটেন্সের জন্য একটি সিনট্যাকটিক সুগার, যা অবজেক্ট তৈরি এবং ইনহেরিটেন্স হ্যান্ডলিং সহজ করে।
 
----
+// ### **Class Syntax and Inheritance (ES6)**
 
-### **Class Syntax and Inheritance (ES6)**
+// **In English:**
+// ES6 introduced the **class** syntax, which is a more familiar way of defining objects and handling inheritance. While this syntax looks like class-based inheritance from languages like Java, it still uses prototypal inheritance under the hood.
 
-**In English:**
-ES6 introduced the **class** syntax, which is a more familiar way of defining objects and handling inheritance. While this syntax looks like class-based inheritance from languages like Java, it still uses prototypal inheritance under the hood.
+// Here’s an example of inheritance using ES6 classes:
 
-Here’s an example of inheritance using ES6 classes:
-
-```javascript
 class Person {
   constructor(name, age) {
     this.name = name;
@@ -130,14 +127,12 @@ class Employee extends Person {
 const employee1 = new Employee("Bob", 30, "Engineer");
 employee1.greet(); // Inherited from Person
 employee1.work(); // Defined in Employee
-```
 
-**In Bengali:**
-ES6 **ক্লাস** সিনট্যাক্সটি পরিচিত হয়েছে, যা অবজেক্ট সংজ্ঞায়িত এবং ইনহেরিটেন্স হ্যান্ডলিং করার একটি আরও পরিচিত উপায়। যদিও এই সিনট্যাক্সটি Java এর মতো ক্লাস-ভিত্তিক ইনহেরিটেন্সের মতো দেখায়, তবে এটি এখনও ভিতরে প্রোটোটাইপাল ইনহেরিটেন্স ব্যবহার করে।
+// **In Bengali:**
+// ES6 **ক্লাস** সিনট্যাক্সটি পরিচিত হয়েছে, যা অবজেক্ট সংজ্ঞায়িত এবং ইনহেরিটেন্স হ্যান্ডলিং করার একটি আরও পরিচিত উপায়। যদিও এই সিনট্যাক্সটি Java এর মতো ক্লাস-ভিত্তিক ইনহেরিটেন্সের মতো দেখায়, তবে এটি এখনও ভিতরে প্রোটোটাইপাল ইনহেরিটেন্স ব্যবহার করে।
 
-এখানে ES6 ক্লাস ব্যবহার করে ইনহেরিটেন্সের একটি উদাহরণ:
+// এখানে ES6 ক্লাস ব্যবহার করে ইনহেরিটেন্সের একটি উদাহরণ:
 
-```javascript
 class Person {
   constructor(name, age) {
     this.name = name;
@@ -164,9 +159,6 @@ class Employee extends Person {
 const employee1 = new Employee("Bob", 30, "ইঞ্জিনিয়ার");
 employee1.greet(); // Person থেকে ইনহেরিট করা
 employee1.work(); // Employee-এ সংজ্ঞায়িত
-```
-
----
 
 // ### **Why Use Prototypes and Inheritance?**
 
