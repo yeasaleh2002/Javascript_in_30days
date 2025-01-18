@@ -1,31 +1,28 @@
-### **Day 16-17: Async JavaScript (Promises, async/await)**
+// ### **Day 16-17: Async JavaScript (Promises, async/await)**
 
-#### **What is Async JavaScript?**
+// #### **What is Async JavaScript?**
 
-**In English:**
-Asynchronous JavaScript allows you to perform tasks like fetching data from an API or handling user inputs without blocking the execution of the rest of the code. This is crucial in web development, as it ensures a smooth and responsive user experience.
+// **In English:**
+// Asynchronous JavaScript allows you to perform tasks like fetching data from an API or handling user inputs without blocking the execution of the rest of the code. This is crucial in web development, as it ensures a smooth and responsive user experience.
 
-In JavaScript, asynchronous operations are typically handled using **Promises**, **callbacks**, and **async/await**. The use of these patterns prevents blocking of the main thread while waiting for operations to complete, enabling the program to perform other tasks in the meantime.
+// In JavaScript, asynchronous operations are typically handled using **Promises**, **callbacks**, and **async/await**. The use of these patterns prevents blocking of the main thread while waiting for operations to complete, enabling the program to perform other tasks in the meantime.
 
-**In Bengali:**
-অ্যাসিঙ্ক্রোনাস JavaScript আপনাকে এমন কাজগুলি করতে দেয় যেমন একটি API থেকে ডেটা নেওয়া বা ব্যবহারকারীর ইনপুটগুলি হ্যান্ডল করা, যার ফলে কোডের বাকি অংশের এক্সিকিউশন ব্লক হয় না। এটি ওয়েব ডেভেলপমেন্টে খুবই গুরুত্বপূর্ণ, কারণ এটি একটি মসৃণ এবং প্রতিক্রিয়াশীল ব্যবহারকারী অভিজ্ঞতা নিশ্চিত করে।
+// **In Bengali:**
+// অ্যাসিঙ্ক্রোনাস JavaScript আপনাকে এমন কাজগুলি করতে দেয় যেমন একটি API থেকে ডেটা নেওয়া বা ব্যবহারকারীর ইনপুটগুলি হ্যান্ডল করা, যার ফলে কোডের বাকি অংশের এক্সিকিউশন ব্লক হয় না। এটি ওয়েব ডেভেলপমেন্টে খুবই গুরুত্বপূর্ণ, কারণ এটি একটি মসৃণ এবং প্রতিক্রিয়াশীল ব্যবহারকারী অভিজ্ঞতা নিশ্চিত করে।
 
-JavaScript-এ অ্যাসিঙ্ক্রোনাস অপারেশনগুলি সাধারণত **প্রমিস**, **কলব্যাক**, এবং **async/await** ব্যবহার করে হ্যান্ডল করা হয়। এই প্যাটার্নগুলি ব্যবহারের মাধ্যমে মূল থ্রেডটি ব্লক হওয়া থেকে রোধ করা যায়, যার ফলে অপারেশনগুলি শেষ হতে থাকা অবস্থায় অন্য কাজগুলি করা সম্ভব হয়।
+// JavaScript-এ অ্যাসিঙ্ক্রোনাস অপারেশনগুলি সাধারণত **প্রমিস**, **কলব্যাক**, এবং **async/await** ব্যবহার করে হ্যান্ডল করা হয়। এই প্যাটার্নগুলি ব্যবহারের মাধ্যমে মূল থ্রেডটি ব্লক হওয়া থেকে রোধ করা যায়, যার ফলে অপারেশনগুলি শেষ হতে থাকা অবস্থায় অন্য কাজগুলি করা সম্ভব হয়।
 
----
+// ### **Promises**
 
-### **Promises**
+// **In English:**
+// A **Promise** is an object representing the eventual completion or failure of an asynchronous operation. It can be in one of three states:
+// 1. **Pending**: The operation is still in progress.
+// 2. **Fulfilled**: The operation completed successfully.
+// 3. **Rejected**: The operation failed.
 
-**In English:**
-A **Promise** is an object representing the eventual completion or failure of an asynchronous operation. It can be in one of three states:
-1. **Pending**: The operation is still in progress.
-2. **Fulfilled**: The operation completed successfully.
-3. **Rejected**: The operation failed.
+// You can attach `.then()` and `.catch()` methods to handle the result or error once the promise is fulfilled or rejected.
 
-You can attach `.then()` and `.catch()` methods to handle the result or error once the promise is fulfilled or rejected.
-
-**Syntax:**
-```javascript
+// **Syntax:**
 let promise = new Promise((resolve, reject) => {
     let success = true; // Simulating success or failure
     if (success) {
