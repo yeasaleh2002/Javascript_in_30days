@@ -78,21 +78,18 @@ console.log(subtract(5, 2));  // আউটপুট: 3
 
 ---
 
-#### **Default Export and Importing**
+// #### **Default Export and Importing**
 
-With default exports, you can export a single element from a module. You can also rename the imported value when importing it into another file.
+// With default exports, you can export a single element from a module. You can also rename the imported value when importing it into another file.
 
-**Example of Default Export (JavaScript file 1 - `math.js`):**
+// **Example of Default Export (JavaScript file 1 - `math.js`):**
 
-```javascript
 // math.js
 const multiply = (a, b) => a * b;
 export default multiply;
-```
 
-**Example of Importing Default Export (JavaScript file 2 - `app.js`):**
+// **Example of Importing Default Export (JavaScript file 2 - `app.js`):**
 
-```javascript
 // app.js
 import multiply from './math.js';
 
