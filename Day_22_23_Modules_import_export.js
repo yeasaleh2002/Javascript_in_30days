@@ -144,15 +144,15 @@ console.log(customMultiply(3, 4));  // আউটপুট: 12
 
 ### **Why Use Modules?**
 
-**In English:**
+// **In English:**
 
-1. **Modularity**: By dividing the code into smaller modules, you can organize your application in a cleaner and more maintainable way. This allows you to build complex applications with smaller, reusable pieces.
+// 1. **Modularity**: By dividing the code into smaller modules, you can organize your application in a cleaner and more maintainable way. This allows you to build complex applications with smaller, reusable pieces.
   
-2. **Reusability**: Functions, variables, or classes can be reused across different files without the need for copy-pasting code, reducing duplication and making the code easier to update.
+// 2. **Reusability**: Functions, variables, or classes can be reused across different files without the need for copy-pasting code, reducing duplication and making the code easier to update.
   
-3. **Separation of Concerns**: Each module focuses on a single responsibility, making the codebase more understandable and reducing the likelihood of bugs.
+// 3. **Separation of Concerns**: Each module focuses on a single responsibility, making the codebase more understandable and reducing the likelihood of bugs.
   
-4. **Maintainability**: With modular code, it is easier to track down bugs and make changes without affecting other parts of the application.
+// 4. **Maintainability**: With modular code, it is easier to track down bugs and make changes without affecting other parts of the application.
 
 // **In Bengali:**
 
