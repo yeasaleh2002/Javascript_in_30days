@@ -149,10 +149,9 @@ fetch('https://jsonplaceholder.typicode.com/posts/1000')
 ```
 
 **In Bengali:**
-Fetch API HTTP স্ট্যাটাস কোড যেমন 404 বা 500 এর জন্য ত্রুটি ছুড়ে দেয় না। বরং, এটি শুধুমাত্র নেটওয়ার্ক ব্যর্থ হলে (যেমন, ইন্টারনেট সংযোগ নেই) প্রমিসটি অস্বীকার করে। সুতরাং, ডেটা প্রক্রিয়া করার আগে রেসপন্সের স্ট্যাটাস `OK` (স্ট্যাটাস কোড 200-299) কিনা তা চেক করা গুরুত্বপূর্ণ।
+// Fetch API HTTP স্ট্যাটাস কোড যেমন 404 বা 500 এর জন্য ত্রুটি ছুড়ে দেয় না। বরং, এটি শুধুমাত্র নেটওয়ার্ক ব্যর্থ হলে (যেমন, ইন্টারনেট সংযোগ নেই) প্রমিসটি অস্বীকার করে। সুতরাং, ডেটা প্রক্রিয়া করার আগে রেসপন্সের স্ট্যাটাস `OK` (স্ট্যাটাস কোড 200-299) কিনা তা চেক করা গুরুত্বপূর্ণ।
 
-**উদাহরণ:**
-```javascript
+// **উদাহরণ:**
 fetch('https://jsonplaceholder.typicode.com/posts/1000')
     .then(response => {
         if (!response.ok) {
@@ -162,11 +161,8 @@ fetch('https://jsonplaceholder.typicode.com/posts/1000')
     })
     .then(data => console.log(data))
     .catch(error => console.log('ত্রুটি:', error));
-```
 
----
-
-### **Why Use Fetch API?**
+// ### **Why Use Fetch API?**
 
 // **In English:**
 // 1. **Simplicity**: The Fetch API offers a cleaner, simpler syntax than older methods like `XMLHttpRequest`, making it easier to work with and read.
