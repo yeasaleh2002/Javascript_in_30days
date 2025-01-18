@@ -5,14 +5,13 @@
 **In English:**
 The **Fetch API** provides a modern and more powerful way to make HTTP requests in JavaScript. It is built into modern browsers and allows you to make network requests to retrieve data, send data, and interact with other web services. The Fetch API is promise-based, meaning it supports asynchronous programming using Promises, making it easier to work with asynchronous data.
 
-Unlike older methods like `XMLHttpRequest`, the Fetch API is more flexible, supports promises, and has a cleaner syntax for making requests.
+// Unlike older methods like `XMLHttpRequest`, the Fetch API is more flexible, supports promises, and has a cleaner syntax for making requests.
 
-**In Bengali:**
-**Fetch API** হলো JavaScript-এ HTTP রিকোয়েস্ট করার জন্য একটি আধুনিক এবং আরও শক্তিশালী উপায়। এটি আধুনিক ব্রাউজারগুলিতে বিল্ট-ইন এবং আপনাকে ডেটা পুনরুদ্ধার, ডেটা পাঠানো এবং অন্যান্য ওয়েব সার্ভিসের সাথে ইন্টারঅ্যাক্ট করার জন্য নেটওয়ার্ক রিকোয়েস্ট করতে দেয়। Fetch API প্রমিস-ভিত্তিক, যার মানে এটি প্রমিস ব্যবহার করে অ্যাসিঙ্ক্রোনাস প্রোগ্রামিং সমর্থন করে, যার ফলে অ্যাসিঙ্ক্রোনাস ডেটার সাথে কাজ করা সহজ হয়।
+// **In Bengali:**
+// **Fetch API** হলো JavaScript-এ HTTP রিকোয়েস্ট করার জন্য একটি আধুনিক এবং আরও শক্তিশালী উপায়। এটি আধুনিক ব্রাউজারগুলিতে বিল্ট-ইন এবং আপনাকে ডেটা পুনরুদ্ধার, ডেটা পাঠানো এবং অন্যান্য ওয়েব সার্ভিসের সাথে ইন্টারঅ্যাক্ট করার জন্য নেটওয়ার্ক রিকোয়েস্ট করতে দেয়। Fetch API প্রমিস-ভিত্তিক, যার মানে এটি প্রমিস ব্যবহার করে অ্যাসিঙ্ক্রোনাস প্রোগ্রামিং সমর্থন করে, যার ফলে অ্যাসিঙ্ক্রোনাস ডেটার সাথে কাজ করা সহজ হয়।
 
-পুরানো পদ্ধতিগুলির মতো `XMLHttpRequest` এর তুলনায়, Fetch API আরও নমনীয়, প্রমিস সমর্থন করে এবং রিকোয়েস্ট করার জন্য একটি পরিষ্কার সিনট্যাক্স প্রদান করে।
+// পুরানো পদ্ধতিগুলির মতো `XMLHttpRequest` এর তুলনায়, Fetch API আরও নমনীয়, প্রমিস সমর্থন করে এবং রিকোয়েস্ট করার জন্য একটি পরিষ্কার সিনট্যাক্স প্রদান করে।
 
----
 
 // ### **Using Fetch API**
 
