@@ -59,22 +59,19 @@ fetch('https://jsonplaceholder.typicode.com/posts')
     .catch(error => console.log('Error:', error));
 ```
 
-In this example, we're making a GET request to fetch posts from a mock API (`https://jsonplaceholder.typicode.com/posts`) and then parsing the JSON response to handle the data.
+// In this example, we're making a GET request to fetch posts from a mock API (`https://jsonplaceholder.typicode.com/posts`) and then parsing the JSON response to handle the data.
 
-**In Bengali:**
-একটি **GET** রিকোয়েস্ট সার্ভার থেকে ডেটা পুনরুদ্ধার করতে ব্যবহৃত হয়। এখানে Fetch API ব্যবহার করে GET রিকোয়েস্ট করার এবং রেসপন্স হ্যান্ডল করার একটি উদাহরণ দেওয়া হল।
+// **In Bengali:**
+// একটি **GET** রিকোয়েস্ট সার্ভার থেকে ডেটা পুনরুদ্ধার করতে ব্যবহৃত হয়। এখানে Fetch API ব্যবহার করে GET রিকোয়েস্ট করার এবং রেসপন্স হ্যান্ডল করার একটি উদাহরণ দেওয়া হল।
 
-**উদাহরণ:**
-```javascript
+// **উদাহরণ:**
 fetch('https://jsonplaceholder.typicode.com/posts')
     .then(response => response.json())
     .then(data => console.log(data))
     .catch(error => console.log('ত্রুটি:', error));
-```
 
-এই উদাহরণে, আমরা একটি GET রিকোয়েস্ট পাঠাচ্ছি একটি মক API (`https://jsonplaceholder.typicode.com/posts`) থেকে পোস্টগুলি ফেচ করার জন্য এবং তারপর JSON রেসপন্সটি পার্স করে ডেটা হ্যান্ডল করছি।
+// এই উদাহরণে, আমরা একটি GET রিকোয়েস্ট পাঠাচ্ছি একটি মক API (`https://jsonplaceholder.typicode.com/posts`) থেকে পোস্টগুলি ফেচ করার জন্য এবং তারপর JSON রেসপন্সটি পার্স করে ডেটা হ্যান্ডল করছি।
 
----
 
 // ### **Making a POST Request**
 
