@@ -7,16 +7,14 @@ In JavaScript, **prototyping** refers to the ability of an object to inherit pro
 
 JavaScript objects use prototypes to implement inheritance. When you try to access a property or method of an object, JavaScript will first look for that property or method in the object itself. If it doesn't find it, JavaScript will look for it in the object's prototype (and the prototype's prototype, and so on) until it either finds the property or reaches the end of the prototype chain.
 
-**In Bengali:**
-JavaScript-এ **প্রোটোটাইপিং** হলো এমন একটি ক্ষমতা, যার মাধ্যমে একটি অবজেক্ট অন্য একটি অবজেক্ট থেকে প্রপার্টি এবং মেথড ইনহেরিট (উত্তরাধিকার) করতে পারে। প্রতিটি JavaScript অবজেক্টের একটি গোপন অভ্যন্তরীণ প্রপার্টি থাকে যাকে `[[Prototype]]` বলা হয়, যা অন্য একটি অবজেক্টের সাথে সংযুক্ত থাকে। এটি অবজেক্টগুলোকে কার্যকারিতা এবং আচরণ শেয়ার করতে দেয়, কোড পুনরাবৃত্তি না করে।
+// **In Bengali:**
+// JavaScript-এ **প্রোটোটাইপিং** হলো এমন একটি ক্ষমতা, যার মাধ্যমে একটি অবজেক্ট অন্য একটি অবজেক্ট থেকে প্রপার্টি এবং মেথড ইনহেরিট (উত্তরাধিকার) করতে পারে। প্রতিটি JavaScript অবজেক্টের একটি গোপন অভ্যন্তরীণ প্রপার্টি থাকে যাকে `[[Prototype]]` বলা হয়, যা অন্য একটি অবজেক্টের সাথে সংযুক্ত থাকে। এটি অবজেক্টগুলোকে কার্যকারিতা এবং আচরণ শেয়ার করতে দেয়, কোড পুনরাবৃত্তি না করে।
 
-JavaScript অবজেক্টগুলি প্রোটোটাইপ ব্যবহার করে ইনহেরিটেন্স (উত্তরাধিকার) বাস্তবায়ন করে। যখন আপনি একটি অবজেক্টের প্রপার্টি বা মেথড অ্যাক্সেস করতে যান, JavaScript প্রথমে সেই প্রপার্টি বা মেথডটি অবজেক্টের মধ্যে খুঁজে দেখবে। যদি তা না পায়, JavaScript অবজেক্টের প্রোটোটাইপে (এবং প্রোটোটাইপের প্রোটোটাইপে, এবং এভাবে চলতে থাকবে) তা খুঁজে দেখবে যতক্ষণ না এটি প্রপার্টি খুঁজে পায় অথবা প্রোটোটাইপ চেইনের শেষ না হয়ে যায়।
+// JavaScript অবজেক্টগুলি প্রোটোটাইপ ব্যবহার করে ইনহেরিটেন্স (উত্তরাধিকার) বাস্তবায়ন করে। যখন আপনি একটি অবজেক্টের প্রপার্টি বা মেথড অ্যাক্সেস করতে যান, JavaScript প্রথমে সেই প্রপার্টি বা মেথডটি অবজেক্টের মধ্যে খুঁজে দেখবে। যদি তা না পায়, JavaScript অবজেক্টের প্রোটোটাইপে (এবং প্রোটোটাইপের প্রোটোটাইপে, এবং এভাবে চলতে থাকবে) তা খুঁজে দেখবে যতক্ষণ না এটি প্রপার্টি খুঁজে পায় অথবা প্রোটোটাইপ চেইনের শেষ না হয়ে যায়।
 
----
+// ### **Prototype Chain**
 
-### **Prototype Chain**
-
-**In English:**
+// **In English:**
 // The **prototype chain** is the series of objects that are linked together through their prototypes. The chain starts with an object and continues through its prototype (if it has one) until it reaches `null`, which signifies the end of the chain.
 
 // For example, if you create an object with a constructor function, the object will inherit properties from the constructor’s prototype. If the prototype doesn’t have the property you're looking for, it will continue to search through the prototype chain.
