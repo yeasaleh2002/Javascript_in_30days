@@ -51,12 +51,11 @@ const person1 = new Person("Alice", 25);
 person1.greet(); // Output: Hello, my name is Alice and I am 25 years old.
 ```
 
-In this example, the `greet` method is added to the prototype of `Person`, meaning all instances of `Person` will inherit this method.
+// In this example, the `greet` method is added to the prototype of `Person`, meaning all instances of `Person` will inherit this method.
 
-**In Bengali:**
-JavaScript-এ প্রোটোটাইপ বুঝতে একটি উদাহরণ তৈরি করি। এই উদাহরণে, আমরা একটি কনস্ট্রাক্টর ফাংশন তৈরি করব যার নাম `Person`, এবং প্রতিটি `Person` অবজেক্ট প্রোটোটাইপ থেকে একটি মেথড ইনহেরিট করবে।
+// **In Bengali:**
+// JavaScript-এ প্রোটোটাইপ বুঝতে একটি উদাহরণ তৈরি করি। এই উদাহরণে, আমরা একটি কনস্ট্রাক্টর ফাংশন তৈরি করব যার নাম `Person`, এবং প্রতিটি `Person` অবজেক্ট প্রোটোটাইপ থেকে একটি মেথড ইনহেরিট করবে।
 
-```javascript
 function Person(name, age) {
   this.name = name;
   this.age = age;
@@ -72,11 +71,9 @@ const person1 = new Person("Alice", 25);
 
 // greet মেথড কল করুন
 person1.greet(); // আউটপুট: হ্যালো, আমার নাম Alice এবং আমার বয়স 25 বছর।
-```
 
-এই উদাহরণে, `greet` মেথডটি `Person` এর প্রোটোটাইপে যুক্ত করা হয়েছে, যার মানে হল যে `Person` এর সব ইনস্ট্যান্স এই মেথডটি ইনহেরিট করবে।
+// এই উদাহরণে, `greet` মেথডটি `Person` এর প্রোটোটাইপে যুক্ত করা হয়েছে, যার মানে হল যে `Person` এর সব ইনস্ট্যান্স এই মেথডটি ইনহেরিট করবে।
 
----
 
 // ### **Inheritance in JavaScript**
 
