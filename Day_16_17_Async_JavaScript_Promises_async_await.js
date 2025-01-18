@@ -23,7 +23,7 @@
 // You can attach `.then()` and `.catch()` methods to handle the result or error once the promise is fulfilled or rejected.
 
 // **Syntax:**
-let promise = new Promise((resolve, reject) => {
+let promise1 = new Promise((resolve, reject) => {
     let success = true; // Simulating success or failure
     if (success) {
         resolve("Operation successful!");
@@ -32,7 +32,7 @@ let promise = new Promise((resolve, reject) => {
     }
 });
 
-promise
+promise1
     .then(result => console.log(result)) // Handle success
     .catch(error => console.log(error)); // Handle error
 
