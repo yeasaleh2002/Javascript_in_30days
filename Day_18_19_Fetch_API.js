@@ -180,12 +180,10 @@ fetch('https://jsonplaceholder.typicode.com/posts/1000')
 3. **ভাল ত্রুটি হ্যান্ডলিং**: Fetch সহজেই ত্রুটি এবং রেসপন্স হ্যান্ডল করার জন্য একটি সাদামাটা, গঠনমূলক API প্রদান করে।
 4. **আধুনিক বৈশিষ্ট্যগুলির সমর্থন**: Fetch API আধুনিক বৈশিষ্ট্যগুলি সমর্থন করে যেমন কাস্টম হেডার, JSON পাঠানো, টাইমআউট হ্যান্ডলিং, এবং আরও অনেক কিছু।
 
----
+// ### **Conclusion**
 
-### **Conclusion**
+// **In English:**
+// The Fetch API is a powerful and modern way to handle HTTP requests in JavaScript. Its promise-based structure and ease of use make it a popular choice for working with APIs and making asynchronous network requests. Whether you are fetching data, posting data, or handling responses, Fetch provides a clean and simple way to interact with external services.
 
-**In English:**
-The Fetch API is a powerful and modern way to handle HTTP requests in JavaScript. Its promise-based structure and ease of use make it a popular choice for working with APIs and making asynchronous network requests. Whether you are fetching data, posting data, or handling responses, Fetch provides a clean and simple way to interact with external services.
-
-**In Bengali:**
-Fetch API হলো JavaScript-এ HTTP রিকোয়েস্ট হ্যান্ডল করার একটি শক্তিশালী এবং আধুনিক উপায়। এর প্রমিস-ভিত্তিক গঠন এবং ব্যবহার সহজ হওয়ার কারণে এটি API-এর সাথে কাজ করার জন্য এবং অ্যাসিঙ্ক্রোনাস নেটওয়ার্ক রিকোয়েস্ট করার জন্য জনপ্রিয় একটি পছন্দ। আপনি ডেটা ফেচ করুক, ডেটা পোস্ট করুক বা রেসপন্স হ্যান্ডল করুক, Fetch একটি পরিষ্কার এবং সহজ উপায় প্রদান করে বাহ্যিক সার্ভিসের সাথে ইন্টারঅ্যাক্ট করার জন্য।
+// **In Bengali:**
+// Fetch API হলো JavaScript-এ HTTP রিকোয়েস্ট হ্যান্ডল করার একটি শক্তিশালী এবং আধুনিক উপায়। এর প্রমিস-ভিত্তিক গঠন এবং ব্যবহার সহজ হওয়ার কারণে এটি API-এর সাথে কাজ করার জন্য এবং অ্যাসিঙ্ক্রোনাস নেটওয়ার্ক রিকোয়েস্ট করার জন্য জনপ্রিয় একটি পছন্দ। আপনি ডেটা ফেচ করুক, ডেটা পোস্ট করুক বা রেসপন্স হ্যান্ডল করুক, Fetch একটি পরিষ্কার এবং সহজ উপায় প্রদান করে বাহ্যিক সার্ভিসের সাথে ইন্টারঅ্যাক্ট করার জন্য।
