@@ -14,13 +14,13 @@ JavaScript মডিউল আসার আগে, ডেভেলপারর�
 
 ---
 
-### **Using `export` and `import`**
+// ### **Using `export` and `import`**
 
-**In English:**
+// **In English:**
 
-- **Exporting**: The `export` keyword is used to make parts of a module accessible to other modules. There are two types of exports:
-  - **Named exports**: Allows you to export multiple elements from a module.
-  - **Default export**: Allows you to export one default element from a module.
+// - **Exporting**: The `export` keyword is used to make parts of a module accessible to other modules. There are two types of exports:
+//   - **Named exports**: Allows you to export multiple elements from a module.
+//   - **Default export**: Allows you to export one default element from a module.
 
 // - **Importing**: The `import` keyword is used to bring in functionality from another module into the current file.
 
