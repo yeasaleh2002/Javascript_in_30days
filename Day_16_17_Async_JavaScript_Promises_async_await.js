@@ -38,18 +38,16 @@ let promise = new Promise((resolve, reject) => {
 promise
     .then(result => console.log(result)) // Handle success
     .catch(error => console.log(error)); // Handle error
-```
 
-**In Bengali:**
-একটি **প্রমিস** হলো একটি অবজেক্ট যা একটি অ্যাসিঙ্ক্রোনাস অপারেশনের শেষ হওয়া বা ব্যর্থতার প্রতিনিধিত্ব করে। এটি তিনটি স্থিতির মধ্যে একটি হতে পারে:
-1. **পেন্ডিং**: অপারেশন এখনও চলমান।
-2. **ফুলফিল্ড**: অপারেশন সফলভাবে সম্পন্ন হয়েছে।
-3. **রিজেক্টেড**: অপারেশন ব্যর্থ হয়েছে।
+// **In Bengali:**
+// একটি **প্রমিস** হলো একটি অবজেক্ট যা একটি অ্যাসিঙ্ক্রোনাস অপারেশনের শেষ হওয়া বা ব্যর্থতার প্রতিনিধিত্ব করে। এটি তিনটি স্থিতির মধ্যে একটি হতে পারে:
+// 1. **পেন্ডিং**: অপারেশন এখনও চলমান।
+// 2. **ফুলফিল্ড**: অপারেশন সফলভাবে সম্পন্ন হয়েছে।
+// 3. **রিজেক্টেড**: অপারেশন ব্যর্থ হয়েছে।
 
-আপনি `.then()` এবং `.catch()` মেথডগুলির মাধ্যমে প্রমিস পূর্ণ হওয়া বা অস্বীকৃত হওয়ার পর ফলাফল বা ত্রুটি হ্যান্ডল করতে পারেন।
+// আপনি `.then()` এবং `.catch()` মেথডগুলির মাধ্যমে প্রমিস পূর্ণ হওয়া বা অস্বীকৃত হওয়ার পর ফলাফল বা ত্রুটি হ্যান্ডল করতে পারেন।
 
-**সিনট্যাক্স:**
-```javascript
+// **সিনট্যাক্স:**
 let promise = new Promise((resolve, reject) => {
     let success = true; // সফল বা ব্যর্থ হওয়ার সিমুলেশন
     if (success) {
@@ -62,20 +60,16 @@ let promise = new Promise((resolve, reject) => {
 promise
     .then(result => console.log(result)) // সফল হলে হ্যান্ডল করুন
     .catch(error => console.log(error)); // ত্রুটি হলে হ্যান্ডল করুন
-```
 
----
+// #### **Async/Await**
 
-#### **Async/Await**
+// **In English:**
+// **async/await** is a modern way to handle asynchronous operations. It is syntactic sugar over Promises, making asynchronous code look and behave more like synchronous code. `async` is used to declare a function that will return a promise, and `await` is used to pause the execution of the function until the promise resolves or rejects.
 
-**In English:**
-**async/await** is a modern way to handle asynchronous operations. It is syntactic sugar over Promises, making asynchronous code look and behave more like synchronous code. `async` is used to declare a function that will return a promise, and `await` is used to pause the execution of the function until the promise resolves or rejects.
+// - **`async`**: Makes a function asynchronous, meaning it will always return a Promise.
+// - **`await`**: Pauses the execution of an `async` function until a Promise is resolved or rejected.
 
-- **`async`**: Makes a function asynchronous, meaning it will always return a Promise.
-- **`await`**: Pauses the execution of an `async` function until a Promise is resolved or rejected.
-
-**Syntax:**
-```javascript
+// **Syntax:**
 async function fetchData() {
     let response = await fetch("https://jsonplaceholder.typicode.com/posts");
     let data = await response.json();
@@ -83,10 +77,9 @@ async function fetchData() {
 }
 
 fetchData();
-```
 
-**In Bengali:**
-**async/await** হলো অ্যাসিঙ্ক্রোনাস অপারেশনগুলি হ্যান্ডল করার একটি আধুনিক উপায়। এটি প্রমিসের উপর সিনট্যাকটিক সুগার, যা অ্যাসিঙ্ক্রোনাস কোডকে সিঙ্ক্রোনাস কোডের মতো দেখতে এবং আচরণ করতে সহায়ক। `async` একটি ফাংশন ডিক্লেয়ার করতে ব্যবহৃত হয় যা একটি প্রমিস রিটার্ন করবে, এবং `await` ব্যবহার করা হয় ফাংশনের এক্সিকিউশন থামিয়ে দেওয়ার জন্য যতক্ষণ না প্রমিসটি রেজলভ বা রিজেক্ট হয়।
+// **In Bengali:**
+// **async/await** হলো অ্যাসিঙ্ক্রোনাস অপারেশনগুলি হ্যান্ডল করার একটি আধুনিক উপায়। এটি প্রমিসের উপর সিনট্যাকটিক সুগার, যা অ্যাসিঙ্ক্রোনাস কোডকে সিঙ্ক্রোনাস কোডের মতো দেখতে এবং আচরণ করতে সহায়ক। `async` একটি ফাংশন ডিক্লেয়ার করতে ব্যবহৃত হয় যা একটি প্রমিস রিটার্ন করবে, এবং `await` ব্যবহার করা হয় ফাংশনের এক্সিকিউশন থামিয়ে দেওয়ার জন্য যতক্ষণ না প্রমিসটি রেজলভ বা রিজেক্ট হয়।
 
 // - **`async`**: একটি ফাংশনকে অ্যাসিঙ্ক্রোনাস করে তোলে, যার মানে এটি সব সময় একটি প্রমিস রিটার্ন করবে।
 // - **`await`**: একটি `async` ফাংশনের এক্সিকিউশন থামিয়ে দেয় যতক্ষণ না একটি প্রমিস রেজলভ বা রিজেক্ট হয়।
