@@ -46,18 +46,16 @@ fetch(url, options)
 
 ---
 
-### **Example: Making a GET Request**
+// ### **Example: Making a GET Request**
 
-**In English:**
-A **GET** request is used to retrieve data from a server. Here's an example of how to use the Fetch API to make a GET request and handle the response.
+// **In English:**
+// A **GET** request is used to retrieve data from a server. Here's an example of how to use the Fetch API to make a GET request and handle the response.
 
-**Example:**
-```javascript
+// **Example:**
 fetch('https://jsonplaceholder.typicode.com/posts')
     .then(response => response.json())
     .then(data => console.log(data))
     .catch(error => console.log('Error:', error));
-```
 
 // In this example, we're making a GET request to fetch posts from a mock API (`https://jsonplaceholder.typicode.com/posts`) and then parsing the JSON response to handle the data.
 
