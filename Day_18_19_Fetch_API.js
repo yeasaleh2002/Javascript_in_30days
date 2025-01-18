@@ -14,13 +14,12 @@ Unlike older methods like `XMLHttpRequest`, the Fetch API is more flexible, supp
 
 ---
 
-### **Using Fetch API**
+// ### **Using Fetch API**
 
-**In English:**
-The Fetch API is used to make HTTP requests to servers and get responses back. It is typically used to fetch data from an API, post data to a server, or interact with a REST API.
+// **In English:**
+// The Fetch API is used to make HTTP requests to servers and get responses back. It is typically used to fetch data from an API, post data to a server, or interact with a REST API.
 
-**Syntax:**
-```javascript
+// **Syntax:**
 fetch(url, options)
     .then(response => response.json()) // Parse the JSON response
     .then(data => console.log(data))   // Handle the data
