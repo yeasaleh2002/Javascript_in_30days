@@ -129,20 +129,15 @@ export default multiply;
 import multiply from './math.js';
 
 console.log(multiply(3, 4));  // আউটপুট: 12
-```
 
-আপনি ডিফল্ট ইমপোর্টটির নামও পরিবর্তন করতে পারেন:
+// আপনি ডিফল্ট ইমপোর্টটির নামও পরিবর্তন করতে পারেন:
 
-```javascript
 // app.js
 import customMultiply from './math.js';
 
 console.log(customMultiply(3, 4));  // আউটপুট: 12
-```
 
----
-
-### **Why Use Modules?**
+// ### **Why Use Modules?**
 
 // **In English:**
 
