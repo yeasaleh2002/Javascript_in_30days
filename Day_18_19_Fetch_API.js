@@ -76,13 +76,12 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 
 ---
 
-### **Making a POST Request**
+// ### **Making a POST Request**
 
-**In English:**
-A **POST** request is used to send data to a server. You can use the Fetch API to send form data, JSON objects, or other types of data to the server.
+// **In English:**
+// A **POST** request is used to send data to a server. You can use the Fetch API to send form data, JSON objects, or other types of data to the server.
 
-**Syntax for POST:**
-```javascript
+// **Syntax for POST:**
 fetch('https://jsonplaceholder.typicode.com/posts', {
     method: 'POST',
     headers: {
