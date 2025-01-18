@@ -97,20 +97,17 @@ export default multiply;
 import multiply from './math.js';
 
 console.log(multiply(3, 4));  // Output: 12
-```
 
-You can also rename the default import:
+// You can also rename the default import:
 
-```javascript
 // app.js
 import customMultiply from './math.js';
 
 console.log(customMultiply(3, 4));  // Output: 12
-```
 
-**In Bengali:**
+// **In Bengali:**
 
-**ডিফল্ট এক্সপোর্ট এবং ইমপোর্ট করা**
+// **ডিফল্ট এক্সপোর্ট এবং ইমপোর্ট করা**
 
 // ডিফল্ট এক্সপোর্টের মাধ্যমে আপনি একটি মডিউল থেকে একক উপাদান এক্সপোর্ট করতে পারেন। আপনি এটি অন্য একটি ফাইলে ইমপোর্ট করার সময় ইমপোর্ট করা মানের নামও পরিবর্তন করতে পারেন।
 
