@@ -1,11 +1,11 @@
-### **Day 22-23: Modules (import/export)**
+// ### **Day 22-23: Modules (import/export)**
 
-#### **What are Modules in JavaScript?**
+// #### **What are Modules in JavaScript?**
 
-**In English:**
-In JavaScript, a **module** is a piece of code that is encapsulated into its own file. It allows you to break your application into smaller, reusable pieces of functionality. Each module can export its functionality (variables, functions, objects, etc.) and import functionality from other modules. This modular approach helps keep the code clean, organized, and easy to maintain.
+// **In English:**
+// In JavaScript, a **module** is a piece of code that is encapsulated into its own file. It allows you to break your application into smaller, reusable pieces of functionality. Each module can export its functionality (variables, functions, objects, etc.) and import functionality from other modules. This modular approach helps keep the code clean, organized, and easy to maintain.
 
-Before JavaScript introduced modules, developers used different techniques to share code across files, like adding scripts or using libraries like CommonJS or AMD. With the introduction of **ECMAScript 6 (ES6)**, JavaScript introduced a standard for modules, allowing developers to write modular code using `import` and `export` keywords.
+// Before JavaScript introduced modules, developers used different techniques to share code across files, like adding scripts or using libraries like CommonJS or AMD. With the introduction of **ECMAScript 6 (ES6)**, JavaScript introduced a standard for modules, allowing developers to write modular code using `import` and `export` keywords.
 
 // **In Bengali:**
 // JavaScript-এ একটি **মডিউল** হলো কোডের একটি অংশ যা নিজস্ব ফাইলে ইনক্যাপসুলেট করা থাকে। এটি আপনাকে আপনার অ্যাপ্লিকেশনটি ছোট, পুনঃব্যবহারযোগ্য কার্যকারিতার অংশে ভাগ করতে দেয়। প্রতিটি মডিউল তার কার্যকারিতা (ভেরিয়েবল, ফাংশন, অবজেক্ট ইত্যাদি) এক্সপোর্ট করতে পারে এবং অন্যান্য মডিউল থেকে কার্যকারিতা আমদানি করতে পারে। এই মডুলার পদ্ধতি কোডটিকে পরিষ্কার, সংগঠিত এবং রক্ষণাবেক্ষণযোগ্য রাখে।
