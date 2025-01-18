@@ -30,16 +30,16 @@
 // **Example of Named Export (JavaScript file 1 - `math.js`):**
 
 // math.js
-export const add = (a, b) => a + b;
-export const subtract = (a, b) => a - b;
+export const add1 = (a, b) => a + b;
+export const subtract1 = (a, b) => a - b;
 
 // **Example of Importing Named Exports (JavaScript file 2 - `app.js`):**
 
 // app.js
 import { add, subtract } from './math.js';
 
-console.log(add(2, 3));       // Output: 5
-console.log(subtract(5, 2));  // Output: 3
+console.log(add1(2, 3));       // Output: 5
+console.log(subtract1(5, 2));  // Output: 3
 
 // **In Bengali:**
 
@@ -74,15 +74,15 @@ console.log(subtract(5, 2));  // আউটপুট: 3
 // **Example of Default Export (JavaScript file 1 - `math.js`):**
 
 // math.js
-const multiply = (a, b) => a * b;
-export default multiply;
+const multiply1 = (a, b) => a * b;
+export default multiply1;
 
 // **Example of Importing Default Export (JavaScript file 2 - `app.js`):**
 
 // app.js
-import multiply from './math.js';
+import multiply2 from './math.js';
 
-console.log(multiply(3, 4));  // Output: 12
+console.log(multiply2(3, 4));  // Output: 12
 
 // You can also rename the default import:
 
@@ -100,8 +100,8 @@ console.log(customMultiply(3, 4));  // Output: 12
 // **ডিফল্ট এক্সপোর্টের উদাহরণ (JavaScript ফাইল 1 - `math.js`):**
 
 // math.js
-const multiply = (a, b) => a * b;
-export default multiply;
+const multiply3 = (a, b) => a * b;
+export default multiply3;
 
 // **ডিফল্ট এক্সপোর্ট ইমপোর্ট করার উদাহরণ (JavaScript ফাইল 2 - `app.js`):**
 
