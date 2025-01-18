@@ -1,11 +1,11 @@
-### **Day 20-21: Prototypes and Inheritance**
+// ### **Day 20-21: Prototypes and Inheritance**
 
-#### **What is Prototyping in JavaScript?**
+// #### **What is Prototyping in JavaScript?**
 
-**In English:**
-In JavaScript, **prototyping** refers to the ability of an object to inherit properties and methods from another object. Every JavaScript object has a hidden internal property called `[[Prototype]]`, which links to another object. This allows objects to share functionality and behaviors without duplicating code.
+// **In English:**
+// In JavaScript, **prototyping** refers to the ability of an object to inherit properties and methods from another object. Every JavaScript object has a hidden internal property called `[[Prototype]]`, which links to another object. This allows objects to share functionality and behaviors without duplicating code.
 
-JavaScript objects use prototypes to implement inheritance. When you try to access a property or method of an object, JavaScript will first look for that property or method in the object itself. If it doesn't find it, JavaScript will look for it in the object's prototype (and the prototype's prototype, and so on) until it either finds the property or reaches the end of the prototype chain.
+// JavaScript objects use prototypes to implement inheritance. When you try to access a property or method of an object, JavaScript will first look for that property or method in the object itself. If it doesn't find it, JavaScript will look for it in the object's prototype (and the prototype's prototype, and so on) until it either finds the property or reaches the end of the prototype chain.
 
 // **In Bengali:**
 // JavaScript-এ **প্রোটোটাইপিং** হলো এমন একটি ক্ষমতা, যার মাধ্যমে একটি অবজেক্ট অন্য একটি অবজেক্ট থেকে প্রপার্টি এবং মেথড ইনহেরিট (উত্তরাধিকার) করতে পারে। প্রতিটি JavaScript অবজেক্টের একটি গোপন অভ্যন্তরীণ প্রপার্টি থাকে যাকে `[[Prototype]]` বলা হয়, যা অন্য একটি অবজেক্টের সাথে সংযুক্ত থাকে। এটি অবজেক্টগুলোকে কার্যকারিতা এবং আচরণ শেয়ার করতে দেয়, কোড পুনরাবৃত্তি না করে।
@@ -62,10 +62,10 @@ Person.prototype.greet = function() {
 };
 
 // একটি নতুন Person অবজেক্ট তৈরি করুন
-const person1 = new Person("Alice", 25);
+const person2 = new Person("Alice", 25);
 
 // greet মেথড কল করুন
-person1.greet(); // আউটপুট: হ্যালো, আমার নাম Alice এবং আমার বয়স 25 বছর।
+person2.greet(); // আউটপুট: হ্যালো, আমার নাম Alice এবং আমার বয়স 25 বছর।
 
 // এই উদাহরণে, `greet` মেথডটি `Person` এর প্রোটোটাইপে যুক্ত করা হয়েছে, যার মানে হল যে `Person` এর সব ইনস্ট্যান্স এই মেথডটি ইনহেরিট করবে।
 
@@ -116,9 +116,9 @@ class Employee extends Person {
   }
 }
 
-const employee1 = new Employee("Bob", 30, "Engineer");
-employee1.greet(); // Inherited from Person
-employee1.work(); // Defined in Employee
+const employee2 = new Employee("Bob", 30, "Engineer");
+employee2.greet(); // Inherited from Person
+employee2.work(); // Defined in Employee
 
 // **In Bengali:**
 // ES6 **ক্লাস** সিনট্যাক্সটি পরিচিত হয়েছে, যা অবজেক্ট সংজ্ঞায়িত এবং ইনহেরিটেন্স হ্যান্ডলিং করার একটি আরও পরিচিত উপায়। যদিও এই সিনট্যাক্সটি Java এর মতো ক্লাস-ভিত্তিক ইনহেরিটেন্সের মতো দেখায়, তবে এটি এখনও ভিতরে প্রোটোটাইপাল ইনহেরিটেন্স ব্যবহার করে।
