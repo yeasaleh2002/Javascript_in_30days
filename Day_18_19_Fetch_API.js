@@ -103,11 +103,10 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
 - **headers**: Contains information about the request, such as content type.
 - **body**: The data that you are sending to the server, which must be stringified when sending JSON.
 
-**In Bengali:**
-একটি **POST** রিকোয়েস্ট সার্ভারে ডেটা পাঠাতে ব্যবহৃত হয়। আপনি Fetch API ব্যবহার করে ফর্ম ডেটা, JSON অবজেক্ট, বা অন্যান্য ধরণের ডেটা সার্ভারে পাঠাতে পারেন।
+// **In Bengali:**
+// একটি **POST** রিকোয়েস্ট সার্ভারে ডেটা পাঠাতে ব্যবহৃত হয়। আপনি Fetch API ব্যবহার করে ফর্ম ডেটা, JSON অবজেক্ট, বা অন্যান্য ধরণের ডেটা সার্ভারে পাঠাতে পারেন।
 
-**POST রিকোয়েস্টের সিনট্যাক্স:**
-```javascript
+// **POST রিকোয়েস্টের সিনট্যাক্স:**
 fetch('https://jsonplaceholder.typicode.com/posts', {
     method: 'POST',
     headers: {
@@ -122,13 +121,11 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
     .then(response => response.json())
     .then(data => console.log(data))
     .catch(error => console.log('ত্রুটি:', error));
-```
 
-- **method**: HTTP মেথড (POST, GET, PUT, DELETE, ইত্যাদি) নির্দিষ্ট করে।
-- **headers**: রিকোয়েস্ট সম্পর্কে তথ্য ধারণ করে, যেমন কনটেন্ট টাইপ।
-- **body**: সেই ডেটা যা আপনি সার্ভারে পাঠাচ্ছেন, যা JSON পাঠানোর সময় স্ট্রিংফাই করা উচিত।
+// - **method**: HTTP মেথড (POST, GET, PUT, DELETE, ইত্যাদি) নির্দিষ্ট করে।
+// - **headers**: রিকোয়েস্ট সম্পর্কে তথ্য ধারণ করে, যেমন কনটেন্ট টাইপ।
+// - **body**: সেই ডেটা যা আপনি সার্ভারে পাঠাচ্ছেন, যা JSON পাঠানোর সময় স্ট্রিংফাই করা উচিত।
 
----
 
 // ### **Handling Errors with Fetch API**
 
